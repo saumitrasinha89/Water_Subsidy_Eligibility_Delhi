@@ -1,0 +1,1859 @@
+Model run by Shomi using Apollo 0.3.8 on R 4.6.0 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : SubsidyEligibility_04_LCM
+Model description                           : SubsidyEligibility_04_LCM
+Model run at                                : 2026-09-28 19:23:37.633029
+Estimation method                           : bfgs
+Estimation diagnosis                        : successful convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -0.10426
+     reciprocal of condition number         : 0.000131402
+Number of individuals                       : 728
+Number of rows in database                  : 728
+Number of modelled outcomes                 : 11648
+                           model : 2912
+                    Class_1_best : 728
+                   Class_1_worst : 728
+             Class_1_second_best : 728
+            Class_1_second worst : 728
+                    Class_2_best : 728
+                   Class_2_worst : 728
+             Class_2_second_best : 728
+            Class_2_second worst : 728
+                    Class_3_best : 728
+                   Class_3_worst : 728
+             Class_3_second_best : 728
+            Class_3_second worst : 728
+
+Number of cores used                        :  1 
+Model without mixing
+
+LL(start)                                   : -2920.76
+LL (whole model) at equal shares, LL(0)     : -3485.29
+LL (whole model) at observed shares, LL(C)  : -5081.66
+LL(final, whole model)                      : -2869.45
+Rho-squared vs equal shares                  :  0.1767 
+Adj.Rho-squared vs equal shares              :  0.1678 
+Rho-squared vs observed shares               :  0.4353 
+Adj.Rho-squared vs observed shares           :  0.4434 
+AIC                                         :  5800.89 
+BIC                                         :  5986.17 
+
+LL(0,Class_1)                    : -3485.29
+LL(final,Class_1)                : -3245.79
+LL(0,Class_2)                    : -3485.29
+LL(final,Class_2)                : -3928.84
+LL(0,Class_3)                    : -3485.29
+LL(final,Class_3)                : -4031.72
+
+Estimated parameters                        : 31
+Time taken (hh:mm:ss)                       :  00:02:5.38 
+     pre-estimation                         :  00:00:1.22 
+     estimation                             :  00:01:2.89 
+     post-estimation                        :  00:01:1.27 
+Iterations                                  :  84  
+
+Unconstrained optimisation.
+
+Estimates:
+                               Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+b_Income_C_1                    0.86026     0.18214      4.7230     0.28848        2.9821
+b_HH_Member_C_1                 0.07825     0.21468      0.3645     0.34348        0.2278
+b_Caste_C_1                    -2.82193     0.42581     -6.6272     0.60168       -4.6901
+b_Elderly_DiffAble_C_1          0.20922     0.21147      0.9893     0.33255        0.6291
+b_NotPlanned_C_1                0.99093     0.19886      4.9832     0.30148        3.2869
+b_10k_All_C_1                   1.22531     0.24561      4.9889     0.42963        2.8520
+b_CurrentPolicy_C_1             0.00000          NA          NA          NA            NA
+mu_worst_C_1                    0.39908     0.06493      6.1464     0.09537        4.1844
+gamma_WI_Q1_C_1                 0.00000          NA          NA          NA            NA
+gamma_HH_4_OrMore_Y_C_1         0.00000          NA          NA          NA            NA
+gamma_Informal_C_1              0.00000          NA          NA          NA            NA
+gamma_Benefit_Subsidy_Y_C_1     0.00000          NA          NA          NA            NA
+delta_C_1                       0.00000          NA          NA          NA            NA
+b_Income_C_2                   -1.19851     0.39179     -3.0591     0.86994       -1.3777
+b_HH_Member_C_2                -3.92746     0.72015     -5.4536     1.48132       -2.6513
+b_Caste_C_2                    -5.97297     1.18526     -5.0394     2.09166       -2.8556
+b_Elderly_DiffAble_C_2         -4.63765     0.85838     -5.4028     1.48854       -3.1156
+b_NotPlanned_C_2               -2.05697     0.59099     -3.4806     1.42655       -1.4419
+b_10k_All_C_2                  -3.03034     0.61898     -4.8957     1.32067       -2.2945
+b_CurrentPolicy_C_2             0.00000          NA          NA          NA            NA
+mu_worst_C_2                    0.59095     0.15516      3.8086     0.24167        2.4453
+gamma_WI_Q1_C_2                 0.90984     0.32910      2.7646     0.53168        1.7113
+gamma_HH_4_OrMore_Y_C_2         0.61199     0.42284      1.4473     0.74816        0.8180
+gamma_Informal_C_2              2.33169     1.88267      1.2385     4.20709        0.5542
+gamma_Benefit_Subsidy_Y_C_2    -0.05818     0.28365     -0.2051     0.44437       -0.1309
+delta_C_2                      -3.44155     1.89405     -1.8170     4.22808       -0.8140
+b_Income_C_3                   -0.98952     0.27215     -3.6360     0.39579       -2.5001
+b_HH_Member_C_3                -2.38832     0.33810     -7.0640     0.55773       -4.2822
+b_Caste_C_3                    -5.57796     1.07081     -5.2091     1.73701       -3.2112
+b_Elderly_DiffAble_C_3         -1.57292     0.31372     -5.0138     0.45495       -3.4574
+b_NotPlanned_C_3               -3.43919     0.54519     -6.3083     0.89149       -3.8578
+b_10k_All_C_3                  -3.22022     0.50308     -6.4010     0.85160       -3.7814
+b_CurrentPolicy_C_3             0.00000          NA          NA          NA            NA
+mu_worst_C_3                    0.83827     0.23342      3.5913     0.35459        2.3641
+gamma_WI_Q1_C_3                 1.68557     1.39819      1.2055     1.57177        1.0724
+gamma_HH_4_OrMore_Y_C_3         4.53634     1.33793      3.3906     2.57642        1.7607
+gamma_Informal_C_3             -5.20366     0.98617     -5.2766     1.29558       -4.0165
+gamma_Benefit_Subsidy_Y_C_3     3.79166     0.83995      4.5141     1.24758        3.0392
+delta_C_3                      -5.62509     1.53291     -3.6696     3.06226       -1.8369
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1      0.5146
+Class_2      0.2888
+Class_3      0.1966
+
+
+Classical covariance matrix:
+                                           b_Income_C_1             b_HH_Member_C_1                 b_Caste_C_1
+b_Income_C_1                                   0.033175                    0.026444                   -0.003412
+b_HH_Member_C_1                                0.026444                    0.046089                    0.001442
+b_Caste_C_1                                   -0.003412                    0.001442                    0.181313
+b_Elderly_DiffAble_C_1                         0.025522                    0.032988                 -6.5009e-04
+b_NotPlanned_C_1                               0.025171                    0.030032                   -0.002942
+b_10k_All_C_1                                  0.032354                    0.040013                   -0.007197
+mu_worst_C_1                                  -0.004267                   -0.003747                    0.019879
+b_Income_C_2                                   0.010531                    0.031316                   -0.008117
+b_HH_Member_C_2                                0.049868                    0.073147                   -0.030086
+b_Caste_C_2                                    0.071598                    0.109356                   -0.089763
+b_Elderly_DiffAble_C_2                         0.061870                    0.088829                   -0.046458
+b_NotPlanned_C_2                               0.034136                    0.059046                   -0.013205
+b_10k_All_C_2                                  0.042188                    0.068416                   -0.022662
+mu_worst_C_2                                   0.004497                    0.004945                   -0.011252
+gamma_WI_Q1_C_2                               -0.001959                    0.005368                   -0.008708
+gamma_HH_4_OrMore_Y_C_2                       -0.015848                   -0.012457                    0.015975
+gamma_Informal_C_2                             0.020775                    0.018712                    0.022447
+gamma_Benefit_Subsidy_Y_C_2                    0.009573                    0.012779                   -0.001457
+delta_C_2                                      0.011899                    0.018642                   -0.039191
+b_Income_C_3                                   0.001151                    0.003282                   -0.001352
+b_HH_Member_C_3                             -6.5756e-04                   -0.001630                   -0.001432
+b_Caste_C_3                                    0.018599                    0.025727                   -0.010111
+b_Elderly_DiffAble_C_3                         0.004881                    0.007243                 -8.2364e-04
+b_NotPlanned_C_3                               0.012127                    0.016535                   -0.002212
+b_10k_All_C_3                                  0.010592                    0.014482                   -0.002891
+mu_worst_C_3                                   0.002627                    0.003297                 -6.9239e-04
+gamma_WI_Q1_C_3                                0.001277                    0.016126                   -0.026086
+gamma_HH_4_OrMore_Y_C_3                       -0.013698                   -0.023233                   -0.014767
+gamma_Informal_C_3                             0.006789                    0.010647                    0.009287
+gamma_Benefit_Subsidy_Y_C_3                    0.002218                    0.003158                   -0.010136
+delta_C_3                                      0.026688                    0.040509                    0.019020
+                                 b_Elderly_DiffAble_C_1            b_NotPlanned_C_1               b_10k_All_C_1
+b_Income_C_1                                   0.025522                    0.025171                    0.032354
+b_HH_Member_C_1                                0.032988                    0.030032                    0.040013
+b_Caste_C_1                                 -6.5009e-04                   -0.002942                   -0.007197
+b_Elderly_DiffAble_C_1                         0.044720                    0.028501                    0.038939
+b_NotPlanned_C_1                               0.028501                    0.039544                    0.037112
+b_10k_All_C_1                                  0.038939                    0.037112                    0.060323
+mu_worst_C_1                                  -0.003410                   -0.004245                   -0.005664
+b_Income_C_2                                   0.036996                    0.017681                    0.036278
+b_HH_Member_C_2                                0.084605                    0.056702                    0.096662
+b_Caste_C_2                                    0.116805                    0.094936                    0.140740
+b_Elderly_DiffAble_C_2                         0.091323                    0.075986                    0.115172
+b_NotPlanned_C_2                               0.066593                    0.030486                    0.070360
+b_10k_All_C_2                                  0.075234                    0.046788                    0.079718
+mu_worst_C_2                                   0.003748                    0.007547                    0.007043
+gamma_WI_Q1_C_2                                0.006614                    0.001595                    0.006171
+gamma_HH_4_OrMore_Y_C_2                       -0.010528                   -0.021237                   -0.021907
+gamma_Informal_C_2                             0.036867                   -0.026386                    0.034684
+gamma_Benefit_Subsidy_Y_C_2                    0.010893                    0.008890                    0.014905
+delta_C_2                                      0.001547                    0.066233                    0.017618
+b_Income_C_3                                -7.6889e-04                    0.004768                    0.003850
+b_HH_Member_C_3                               -0.004530                    0.003110                   -0.001163
+b_Caste_C_3                                    0.010101                    0.025157                    0.022463
+b_Elderly_DiffAble_C_3                       3.0647e-04                    0.008352                    0.008436
+b_NotPlanned_C_3                               0.007450                    0.015053                    0.016964
+b_10k_All_C_3                                  0.003950                    0.015892                    0.013690
+mu_worst_C_3                                   0.001424                    0.002828                    0.001813
+gamma_WI_Q1_C_3                                0.012724                    0.010555                    0.016106
+gamma_HH_4_OrMore_Y_C_3                       -0.029929                   -0.001041                   -0.036201
+gamma_Informal_C_3                             0.011799                    0.004451                    0.020280
+gamma_Benefit_Subsidy_Y_C_3                   -0.006374                    0.010376                   -0.001822
+delta_C_3                                      0.044893                    0.014229                    0.058644
+                                           mu_worst_C_1                b_Income_C_2             b_HH_Member_C_2
+b_Income_C_1                                  -0.004267                    0.010531                    0.049868
+b_HH_Member_C_1                               -0.003747                    0.031316                    0.073147
+b_Caste_C_1                                    0.019879                   -0.008117                   -0.030086
+b_Elderly_DiffAble_C_1                        -0.003410                    0.036996                    0.084605
+b_NotPlanned_C_1                              -0.004245                    0.017681                    0.056702
+b_10k_All_C_1                                 -0.005664                    0.036278                    0.096662
+mu_worst_C_1                                   0.004216                 -3.4763e-04                   -0.006985
+b_Income_C_2                                -3.4763e-04                    0.153499                    0.208761
+b_HH_Member_C_2                               -0.006985                    0.208761                    0.518622
+b_Caste_C_2                                   -0.014829                    0.262124                    0.695300
+b_Elderly_DiffAble_C_2                        -0.012562                    0.195590                    0.518072
+b_NotPlanned_C_2                              -0.003349                    0.189328                    0.345898
+b_10k_All_C_2                                 -0.006114                    0.191905                    0.386496
+mu_worst_C_2                                  -0.002298                 -6.4574e-04                    0.032381
+gamma_WI_Q1_C_2                              4.5735e-04                    0.043769                    0.060368
+gamma_HH_4_OrMore_Y_C_2                        0.005634                    0.016079                   -0.034682
+gamma_Informal_C_2                             0.008008                    0.193995                    0.399194
+gamma_Benefit_Subsidy_Y_C_2                   -0.001589                    0.012927                    0.036112
+delta_C_2                                     -0.015580                   -0.162976                   -0.264781
+b_Income_C_3                                  -0.001025                   -0.006532                   -0.006618
+b_HH_Member_C_3                               -0.001027                   -0.018201                   -0.031500
+b_Caste_C_3                                   -0.005218                    0.001553                    0.014114
+b_Elderly_DiffAble_C_3                        -0.001656                   -0.003834                   -0.002524
+b_NotPlanned_C_3                              -0.002889                    0.008971                    0.026271
+b_10k_All_C_3                                 -0.003334                   -0.004849                   6.532e-05
+mu_worst_C_3                                -6.4146e-04                  2.5194e-04                    0.001718
+gamma_WI_Q1_C_3                               -0.003531                    0.033345                    0.093469
+gamma_HH_4_OrMore_Y_C_3                       -0.003892                   -0.112474                   -0.201388
+gamma_Informal_C_3                             0.001870                    0.037956                    0.026334
+gamma_Benefit_Subsidy_Y_C_3                   -0.003943                   -0.038487                   -0.071721
+delta_C_3                                      0.002770                    0.144498                    0.276386
+                                            b_Caste_C_2      b_Elderly_DiffAble_C_2            b_NotPlanned_C_2
+b_Income_C_1                                   0.071598                    0.061870                    0.034136
+b_HH_Member_C_1                                0.109356                    0.088829                    0.059046
+b_Caste_C_1                                   -0.089763                   -0.046458                   -0.013205
+b_Elderly_DiffAble_C_1                         0.116805                    0.091323                    0.066593
+b_NotPlanned_C_1                               0.094936                    0.075986                    0.030486
+b_10k_All_C_1                                  0.140740                    0.115172                    0.070360
+mu_worst_C_1                                  -0.014829                   -0.012562                   -0.003349
+b_Income_C_2                                   0.262124                    0.195590                    0.189328
+b_HH_Member_C_2                                0.695300                    0.518072                    0.345898
+b_Caste_C_2                                    1.404831                    0.900475                    0.405309
+b_Elderly_DiffAble_C_2                         0.900475                    0.736819                    0.316535
+b_NotPlanned_C_2                               0.405309                    0.316535                    0.349264
+b_10k_All_C_2                                  0.519587                    0.389935                    0.317528
+mu_worst_C_2                                   0.127102                    0.073734                   -0.004479
+gamma_WI_Q1_C_2                                0.102797                    0.061214                    0.055047
+gamma_HH_4_OrMore_Y_C_2                       -0.102447                   -0.080841                    0.017915
+gamma_Informal_C_2                             0.108586                    0.109304                    0.478021
+gamma_Benefit_Subsidy_Y_C_2                    0.058989                    0.060778                    0.030659
+delta_C_2                                      0.107434                    0.063654                   -0.412578
+b_Income_C_3                                 -6.412e-05                   -0.001105                   -0.006413
+b_HH_Member_C_3                               -0.009094                   -0.004364                   -0.035542
+b_Caste_C_3                                    0.004938                   -0.002096                    0.005063
+b_Elderly_DiffAble_C_3                        -0.002949                   -0.001648                   -0.002741
+b_NotPlanned_C_3                               0.009260                    0.007861                    0.023351
+b_10k_All_C_3                               -7.8963e-04                   -0.001626                   -0.003509
+mu_worst_C_3                                  -0.001685                   -0.002442                   -0.001169
+gamma_WI_Q1_C_3                                0.212765                    0.193508                    0.068970
+gamma_HH_4_OrMore_Y_C_3                       -0.084475                   -0.067982                   -0.239785
+gamma_Informal_C_3                            -0.011636                   -0.075077                    0.083391
+gamma_Benefit_Subsidy_Y_C_3                   -0.027111                   -0.023863                   -0.084089
+delta_C_3                                      0.133759                    0.112162                    0.315793
+                                          b_10k_All_C_2                mu_worst_C_2             gamma_WI_Q1_C_2
+b_Income_C_1                                   0.042188                    0.004497                   -0.001959
+b_HH_Member_C_1                                0.068416                    0.004945                    0.005368
+b_Caste_C_1                                   -0.022662                   -0.011252                   -0.008708
+b_Elderly_DiffAble_C_1                         0.075234                    0.003748                    0.006614
+b_NotPlanned_C_1                               0.046788                    0.007547                    0.001595
+b_10k_All_C_1                                  0.079718                    0.007043                    0.006171
+mu_worst_C_1                                  -0.006114                   -0.002298                  4.5735e-04
+b_Income_C_2                                   0.191905                 -6.4574e-04                    0.043769
+b_HH_Member_C_2                                0.386496                    0.032381                    0.060368
+b_Caste_C_2                                    0.519587                    0.127102                    0.102797
+b_Elderly_DiffAble_C_2                         0.389935                    0.073734                    0.061214
+b_NotPlanned_C_2                               0.317528                   -0.004479                    0.055047
+b_10k_All_C_2                                  0.383141                    0.013629                    0.055462
+mu_worst_C_2                                   0.013629                    0.024076                    0.003650
+gamma_WI_Q1_C_2                                0.055462                    0.003650                    0.108308
+gamma_HH_4_OrMore_Y_C_2                       -0.011626                   -0.020450                    0.026506
+gamma_Informal_C_2                             0.356163                   -0.087170                   -0.001531
+gamma_Benefit_Subsidy_Y_C_2                    0.031188                    0.003048                    0.029010
+delta_C_2                                     -0.256772                    0.106818                   -0.048067
+b_Income_C_3                                  -0.005689                    0.002018                    0.001547
+b_HH_Member_C_3                               -0.028728                    0.006873                   -0.001374
+b_Caste_C_3                                    0.011196                 -3.7058e-04                    0.004348
+b_Elderly_DiffAble_C_3                        -0.002060                  3.9909e-04                    0.002140
+b_NotPlanned_C_3                               0.021863                   -0.004647                    0.004290
+b_10k_All_C_3                                 -0.001826                  6.5609e-04                    0.001958
+mu_worst_C_3                                 3.4794e-04                 -5.9389e-04                 -1.8274e-04
+gamma_WI_Q1_C_3                                0.065372                    0.022637                    0.067967
+gamma_HH_4_OrMore_Y_C_3                       -0.192990                    0.039267                   -0.017506
+gamma_Informal_C_3                             0.071242                   -0.015053                    0.009976
+gamma_Benefit_Subsidy_Y_C_3                   -0.066132                    0.015011                   -0.002713
+delta_C_3                                      0.259469                   -0.048521                    0.022665
+                                gamma_HH_4_OrMore_Y_C_2          gamma_Informal_C_2 gamma_Benefit_Subsidy_Y_C_2
+b_Income_C_1                                  -0.015848                    0.020775                    0.009573
+b_HH_Member_C_1                               -0.012457                    0.018712                    0.012779
+b_Caste_C_1                                    0.015975                    0.022447                   -0.001457
+b_Elderly_DiffAble_C_1                        -0.010528                    0.036867                    0.010893
+b_NotPlanned_C_1                              -0.021237                   -0.026386                    0.008890
+b_10k_All_C_1                                 -0.021907                    0.034684                    0.014905
+mu_worst_C_1                                   0.005634                    0.008008                   -0.001589
+b_Income_C_2                                   0.016079                    0.193995                    0.012927
+b_HH_Member_C_2                               -0.034682                    0.399194                    0.036112
+b_Caste_C_2                                   -0.102447                    0.108586                    0.058989
+b_Elderly_DiffAble_C_2                        -0.080841                    0.109304                    0.060778
+b_NotPlanned_C_2                               0.017915                    0.478021                    0.030659
+b_10k_All_C_2                                 -0.011626                    0.356163                    0.031188
+mu_worst_C_2                                  -0.020450                   -0.087170                    0.003048
+gamma_WI_Q1_C_2                                0.026506                   -0.001531                    0.029010
+gamma_HH_4_OrMore_Y_C_2                        0.178790                    0.067430                    0.004867
+gamma_Informal_C_2                             0.067430                    3.544433                   -0.070523
+gamma_Benefit_Subsidy_Y_C_2                    0.004867                   -0.070523                    0.080455
+delta_C_2                                     -0.242063                   -3.444966                    0.035229
+b_Income_C_3                                  -0.003607                   -0.047527                    0.003977
+b_HH_Member_C_3                               -0.008035                   -0.215181                    0.007633
+b_Caste_C_3                                   -0.008873                   -0.012934                    0.002787
+b_Elderly_DiffAble_C_3                        -0.001953                   -0.034364                    0.005340
+b_NotPlanned_C_3                            -9.4832e-04                    0.132976                    0.001999
+b_10k_All_C_3                                 -0.006662                   -0.044299                    0.005233
+mu_worst_C_3                                  -0.001312                   -0.003206                 -4.0295e-04
+gamma_WI_Q1_C_3                                0.014704                   -0.194619                    0.068165
+gamma_HH_4_OrMore_Y_C_3                       -0.073720                   -1.404588                    0.033140
+gamma_Informal_C_3                             0.020230                    0.352230                   -0.025574
+gamma_Benefit_Subsidy_Y_C_3                   -0.015429                   -0.559065                    0.012253
+delta_C_3                                      0.074123                    1.807168                   -0.032704
+                                              delta_C_2                b_Income_C_3             b_HH_Member_C_3
+b_Income_C_1                                   0.011899                    0.001151                 -6.5756e-04
+b_HH_Member_C_1                                0.018642                    0.003282                   -0.001630
+b_Caste_C_1                                   -0.039191                   -0.001352                   -0.001432
+b_Elderly_DiffAble_C_1                         0.001547                 -7.6889e-04                   -0.004530
+b_NotPlanned_C_1                               0.066233                    0.004768                    0.003110
+b_10k_All_C_1                                  0.017618                    0.003850                   -0.001163
+mu_worst_C_1                                  -0.015580                   -0.001025                   -0.001027
+b_Income_C_2                                  -0.162976                   -0.006532                   -0.018201
+b_HH_Member_C_2                               -0.264781                   -0.006618                   -0.031500
+b_Caste_C_2                                    0.107434                  -6.412e-05                   -0.009094
+b_Elderly_DiffAble_C_2                         0.063654                   -0.001105                   -0.004364
+b_NotPlanned_C_2                              -0.412578                   -0.006413                   -0.035542
+b_10k_All_C_2                                 -0.256772                   -0.005689                   -0.028728
+mu_worst_C_2                                   0.106818                    0.002018                    0.006873
+gamma_WI_Q1_C_2                               -0.048067                    0.001547                   -0.001374
+gamma_HH_4_OrMore_Y_C_2                       -0.242063                   -0.003607                   -0.008035
+gamma_Informal_C_2                            -3.444966                   -0.047527                   -0.215181
+gamma_Benefit_Subsidy_Y_C_2                    0.035229                    0.003977                    0.007633
+delta_C_2                                      3.587433                    0.048544                    0.212112
+b_Income_C_3                                   0.048544                    0.074064                    0.049123
+b_HH_Member_C_3                                0.212112                    0.049123                    0.114309
+b_Caste_C_3                                    0.027691                    0.075514                    0.059024
+b_Elderly_DiffAble_C_3                         0.036036                    0.050817                    0.054592
+b_NotPlanned_C_3                              -0.122348                    0.059682                    0.053613
+b_10k_All_C_3                                  0.051925                    0.068181                    0.074196
+mu_worst_C_3                                   0.005215                    0.001755                   -0.005293
+gamma_WI_Q1_C_3                                0.175230                    0.071867                    0.076778
+gamma_HH_4_OrMore_Y_C_3                        1.396687                    0.073026                    0.156273
+gamma_Informal_C_3                            -0.350550                   -0.041712                   -0.080021
+gamma_Benefit_Subsidy_Y_C_3                    0.550263                    0.056770                    0.091604
+delta_C_3                                     -1.775707                   -0.065211                   -0.178996
+                                            b_Caste_C_3      b_Elderly_DiffAble_C_3            b_NotPlanned_C_3
+b_Income_C_1                                   0.018599                    0.004881                    0.012127
+b_HH_Member_C_1                                0.025727                    0.007243                    0.016535
+b_Caste_C_1                                   -0.010111                 -8.2364e-04                   -0.002212
+b_Elderly_DiffAble_C_1                         0.010101                  3.0647e-04                    0.007450
+b_NotPlanned_C_1                               0.025157                    0.008352                    0.015053
+b_10k_All_C_1                                  0.022463                    0.008436                    0.016964
+mu_worst_C_1                                  -0.005218                   -0.001656                   -0.002889
+b_Income_C_2                                   0.001553                   -0.003834                    0.008971
+b_HH_Member_C_2                                0.014114                   -0.002524                    0.026271
+b_Caste_C_2                                    0.004938                   -0.002949                    0.009260
+b_Elderly_DiffAble_C_2                        -0.002096                   -0.001648                    0.007861
+b_NotPlanned_C_2                               0.005063                   -0.002741                    0.023351
+b_10k_All_C_2                                  0.011196                   -0.002060                    0.021863
+mu_worst_C_2                                -3.7058e-04                  3.9909e-04                   -0.004647
+gamma_WI_Q1_C_2                                0.004348                    0.002140                    0.004290
+gamma_HH_4_OrMore_Y_C_2                       -0.008873                   -0.001953                 -9.4832e-04
+gamma_Informal_C_2                            -0.012934                   -0.034364                    0.132976
+gamma_Benefit_Subsidy_Y_C_2                    0.002787                    0.005340                    0.001999
+delta_C_2                                      0.027691                    0.036036                   -0.122348
+b_Income_C_3                                   0.075514                    0.050817                    0.059682
+b_HH_Member_C_3                                0.059024                    0.054592                    0.053613
+b_Caste_C_3                                    1.146632                    0.129082                    0.479262
+b_Elderly_DiffAble_C_3                         0.129082                    0.098419                    0.092116
+b_NotPlanned_C_3                               0.479262                    0.092116                    0.297232
+b_10k_All_C_3                                  0.407849                    0.097632                    0.230087
+mu_worst_C_3                                   0.219214                    0.011213                    0.086213
+gamma_WI_Q1_C_3                               -0.060230                    0.041135                   -0.022152
+gamma_HH_4_OrMore_Y_C_3                        0.235395                    0.059092                    0.056781
+gamma_Informal_C_3                            -0.163792                   -0.046722                   -0.086157
+gamma_Benefit_Subsidy_Y_C_3                    0.263777                    0.071305                    0.122859
+delta_C_3                                     -0.177612                   -0.043061                    0.002424
+                                          b_10k_All_C_3                mu_worst_C_3             gamma_WI_Q1_C_3
+b_Income_C_1                                   0.010592                    0.002627                    0.001277
+b_HH_Member_C_1                                0.014482                    0.003297                    0.016126
+b_Caste_C_1                                   -0.002891                 -6.9239e-04                   -0.026086
+b_Elderly_DiffAble_C_1                         0.003950                    0.001424                    0.012724
+b_NotPlanned_C_1                               0.015892                    0.002828                    0.010555
+b_10k_All_C_1                                  0.013690                    0.001813                    0.016106
+mu_worst_C_1                                  -0.003334                 -6.4146e-04                   -0.003531
+b_Income_C_2                                  -0.004849                  2.5194e-04                    0.033345
+b_HH_Member_C_2                               6.532e-05                    0.001718                    0.093469
+b_Caste_C_2                                 -7.8963e-04                   -0.001685                    0.212765
+b_Elderly_DiffAble_C_2                        -0.001626                   -0.002442                    0.193508
+b_NotPlanned_C_2                              -0.003509                   -0.001169                    0.068970
+b_10k_All_C_2                                 -0.001826                  3.4794e-04                    0.065372
+mu_worst_C_2                                 6.5609e-04                 -5.9389e-04                    0.022637
+gamma_WI_Q1_C_2                                0.001958                 -1.8274e-04                    0.067967
+gamma_HH_4_OrMore_Y_C_2                       -0.006662                   -0.001312                    0.014704
+gamma_Informal_C_2                            -0.044299                   -0.003206                   -0.194619
+gamma_Benefit_Subsidy_Y_C_2                    0.005233                 -4.0295e-04                    0.068165
+delta_C_2                                      0.051925                    0.005215                    0.175230
+b_Income_C_3                                   0.068181                    0.001755                    0.071867
+b_HH_Member_C_3                                0.074196                   -0.005293                    0.076778
+b_Caste_C_3                                    0.407849                    0.219214                   -0.060230
+b_Elderly_DiffAble_C_3                         0.097632                    0.011213                    0.041135
+b_NotPlanned_C_3                               0.230087                    0.086213                   -0.022152
+b_10k_All_C_3                                  0.253089                    0.066026                    0.029743
+mu_worst_C_3                                   0.066026                    0.054484                   -0.037047
+gamma_WI_Q1_C_3                                0.029743                   -0.037047                    1.954928
+gamma_HH_4_OrMore_Y_C_3                        0.151514                    0.041457                    0.150487
+gamma_Informal_C_3                            -0.114101                   -0.027258                   -0.572891
+gamma_Benefit_Subsidy_Y_C_3                    0.166667                    0.038432                    0.122635
+delta_C_3                                     -0.120636                   -0.033741                   -0.190894
+                                gamma_HH_4_OrMore_Y_C_3          gamma_Informal_C_3 gamma_Benefit_Subsidy_Y_C_3
+b_Income_C_1                                  -0.013698                    0.006789                    0.002218
+b_HH_Member_C_1                               -0.023233                    0.010647                    0.003158
+b_Caste_C_1                                   -0.014767                    0.009287                   -0.010136
+b_Elderly_DiffAble_C_1                        -0.029929                    0.011799                   -0.006374
+b_NotPlanned_C_1                              -0.001041                    0.004451                    0.010376
+b_10k_All_C_1                                 -0.036201                    0.020280                   -0.001822
+mu_worst_C_1                                  -0.003892                    0.001870                   -0.003943
+b_Income_C_2                                  -0.112474                    0.037956                   -0.038487
+b_HH_Member_C_2                               -0.201388                    0.026334                   -0.071721
+b_Caste_C_2                                   -0.084475                   -0.011636                   -0.027111
+b_Elderly_DiffAble_C_2                        -0.067982                   -0.075077                   -0.023863
+b_NotPlanned_C_2                              -0.239785                    0.083391                   -0.084089
+b_10k_All_C_2                                 -0.192990                    0.071242                   -0.066132
+mu_worst_C_2                                   0.039267                   -0.015053                    0.015011
+gamma_WI_Q1_C_2                               -0.017506                    0.009976                   -0.002713
+gamma_HH_4_OrMore_Y_C_2                       -0.073720                    0.020230                   -0.015429
+gamma_Informal_C_2                            -1.404588                    0.352230                   -0.559065
+gamma_Benefit_Subsidy_Y_C_2                    0.033140                   -0.025574                    0.012253
+delta_C_2                                      1.396687                   -0.350550                    0.550263
+b_Income_C_3                                   0.073026                   -0.041712                    0.056770
+b_HH_Member_C_3                                0.156273                   -0.080021                    0.091604
+b_Caste_C_3                                    0.235395                   -0.163792                    0.263777
+b_Elderly_DiffAble_C_3                         0.059092                   -0.046722                    0.071305
+b_NotPlanned_C_3                               0.056781                   -0.086157                    0.122859
+b_10k_All_C_3                                  0.151514                   -0.114101                    0.166667
+mu_worst_C_3                                   0.041457                   -0.027258                    0.038432
+gamma_WI_Q1_C_3                                0.150487                   -0.572891                    0.122635
+gamma_HH_4_OrMore_Y_C_3                        1.790063                   -0.612773                    0.660173
+gamma_Informal_C_3                            -0.612773                    0.972536                   -0.456206
+gamma_Benefit_Subsidy_Y_C_3                    0.660173                   -0.456206                    0.705518
+delta_C_3                                     -1.941687                    0.637611                   -0.891405
+                                              delta_C_3
+b_Income_C_1                                   0.026688
+b_HH_Member_C_1                                0.040509
+b_Caste_C_1                                    0.019020
+b_Elderly_DiffAble_C_1                         0.044893
+b_NotPlanned_C_1                               0.014229
+b_10k_All_C_1                                  0.058644
+mu_worst_C_1                                   0.002770
+b_Income_C_2                                   0.144498
+b_HH_Member_C_2                                0.276386
+b_Caste_C_2                                    0.133759
+b_Elderly_DiffAble_C_2                         0.112162
+b_NotPlanned_C_2                               0.315793
+b_10k_All_C_2                                  0.259469
+mu_worst_C_2                                  -0.048521
+gamma_WI_Q1_C_2                                0.022665
+gamma_HH_4_OrMore_Y_C_2                        0.074123
+gamma_Informal_C_2                             1.807168
+gamma_Benefit_Subsidy_Y_C_2                   -0.032704
+delta_C_2                                     -1.775707
+b_Income_C_3                                  -0.065211
+b_HH_Member_C_3                               -0.178996
+b_Caste_C_3                                   -0.177612
+b_Elderly_DiffAble_C_3                        -0.043061
+b_NotPlanned_C_3                               0.002424
+b_10k_All_C_3                                 -0.120636
+mu_worst_C_3                                  -0.033741
+gamma_WI_Q1_C_3                               -0.190894
+gamma_HH_4_OrMore_Y_C_3                       -1.941687
+gamma_Informal_C_3                             0.637611
+gamma_Benefit_Subsidy_Y_C_3                   -0.891405
+delta_C_3                                      2.349801
+
+Robust covariance matrix:
+                                           b_Income_C_1             b_HH_Member_C_1                 b_Caste_C_1
+b_Income_C_1                                   0.083218                     0.06911                   -0.035877
+b_HH_Member_C_1                                0.069112                     0.11798                   -0.049267
+b_Caste_C_1                                   -0.035877                    -0.04927                    0.362021
+b_Elderly_DiffAble_C_1                         0.061482                     0.08718                   -0.056761
+b_NotPlanned_C_1                               0.061703                     0.08162                   -0.053714
+b_10k_All_C_1                                  0.087487                     0.11879                   -0.099112
+mu_worst_C_1                                  -0.014029                    -0.01251                    0.040705
+b_Income_C_2                                   0.044165                     0.14307                   -0.105159
+b_HH_Member_C_2                                0.177861                     0.30665                   -0.232119
+b_Caste_C_2                                    0.225829                     0.42820                   -0.451390
+b_Elderly_DiffAble_C_2                         0.208701                     0.32878                   -0.287251
+b_NotPlanned_C_2                               0.148437                     0.27231                   -0.142051
+b_10k_All_C_2                                  0.151312                     0.27894                   -0.194611
+mu_worst_C_2                                   0.008852                     0.01083                   -0.035768
+gamma_WI_Q1_C_2                               -0.015005                     0.04999                   -0.071109
+gamma_HH_4_OrMore_Y_C_2                       -0.066522                    -0.03446                    0.116739
+gamma_Informal_C_2                             0.298246                     0.39323                    0.013530
+gamma_Benefit_Subsidy_Y_C_2                    0.042656                     0.06355                   -0.018704
+delta_C_2                                     -0.180170                    -0.29032                   -0.163574
+b_Income_C_3                                   0.008507                     0.01516                   -0.010785
+b_HH_Member_C_3                               -0.015854                    -0.02945                   -0.002640
+b_Caste_C_3                                    0.089077                     0.12521                   -0.052490
+b_Elderly_DiffAble_C_3                         0.022631                     0.03212                   -0.011522
+b_NotPlanned_C_3                               0.062205                     0.08677                   -0.023618
+b_10k_All_C_3                                  0.047263                     0.06307                   -0.021091
+mu_worst_C_3                                   0.013524                     0.01779                   -0.003222
+gamma_WI_Q1_C_3                                0.012921                     0.07879                   -0.112876
+gamma_HH_4_OrMore_Y_C_3                       -0.104251                    -0.20175                    0.015989
+gamma_Informal_C_3                             0.021180                     0.06635                   -0.011747
+gamma_Benefit_Subsidy_Y_C_3                   -0.002146                    -0.02226                   -0.022629
+delta_C_3                                      0.162315                     0.28720                   -0.024333
+                                 b_Elderly_DiffAble_C_1            b_NotPlanned_C_1               b_10k_All_C_1
+b_Income_C_1                                   0.061482                    0.061703                     0.08749
+b_HH_Member_C_1                                0.087184                    0.081623                     0.11879
+b_Caste_C_1                                   -0.056761                   -0.053714                    -0.09911
+b_Elderly_DiffAble_C_1                         0.110590                    0.064509                     0.11373
+b_NotPlanned_C_1                               0.064509                    0.090891                     0.09763
+b_10k_All_C_1                                  0.113726                    0.097633                     0.18458
+mu_worst_C_1                                  -0.009337                   -0.015155                    -0.02061
+b_Income_C_2                                   0.186598                    0.060785                     0.19076
+b_HH_Member_C_2                                0.374802                    0.177412                     0.43874
+b_Caste_C_2                                    0.479495                    0.324144                     0.59116
+b_Elderly_DiffAble_C_2                         0.350279                    0.251322                     0.46654
+b_NotPlanned_C_2                               0.338874                    0.108355                     0.37491
+b_10k_All_C_2                                  0.332509                    0.151955                     0.37128
+mu_worst_C_2                                   0.001625                    0.027683                     0.01439
+gamma_WI_Q1_C_2                                0.057742                    0.023520                     0.05601
+gamma_HH_4_OrMore_Y_C_2                       -0.013799                   -0.096102                    -0.07303
+gamma_Informal_C_2                             0.607602                   -0.010340                     0.61834
+gamma_Benefit_Subsidy_Y_C_2                    0.051238                    0.047826                     0.08540
+delta_C_2                                     -0.500634                    0.135027                    -0.44686
+b_Income_C_3                                  -0.006387                    0.021894                     0.01338
+b_HH_Member_C_3                               -0.049232                    0.004945                    -0.04061
+b_Caste_C_3                                    0.042623                    0.113407                     0.10792
+b_Elderly_DiffAble_C_3                         0.002571                    0.034534                     0.03343
+b_NotPlanned_C_3                               0.046582                    0.065847                     0.09047
+b_10k_All_C_3                                  0.010067                    0.065325                     0.05445
+mu_worst_C_3                                   0.006067                    0.015453                     0.01179
+gamma_WI_Q1_C_3                                0.054964                    0.061104                     0.10344
+gamma_HH_4_OrMore_Y_C_3                       -0.292464                   -0.005507                    -0.33348
+gamma_Informal_C_3                             0.108387                   -0.001465                     0.12650
+gamma_Benefit_Subsidy_Y_C_3                   -0.088968                    0.048879                    -0.06399
+delta_C_3                                      0.379144                    0.037372                     0.43904
+                                           mu_worst_C_1                b_Income_C_2             b_HH_Member_C_2
+b_Income_C_1                                  -0.014029                    0.044165                     0.17786
+b_HH_Member_C_1                               -0.012511                    0.143066                     0.30665
+b_Caste_C_1                                    0.040705                   -0.105159                    -0.23212
+b_Elderly_DiffAble_C_1                        -0.009337                    0.186598                     0.37480
+b_NotPlanned_C_1                              -0.015155                    0.060785                     0.17741
+b_10k_All_C_1                                 -0.020615                    0.190762                     0.43874
+mu_worst_C_1                                   0.009096                    0.002803                    -0.02004
+b_Income_C_2                                   0.002803                    0.756796                     1.14065
+b_HH_Member_C_2                               -0.020039                    1.140646                     2.19431
+b_Caste_C_2                                   -0.048479                    1.384773                     2.65944
+b_Elderly_DiffAble_C_2                        -0.046017                    0.867487                     1.85529
+b_NotPlanned_C_2                              -0.005903                    1.096454                     1.94960
+b_10k_All_C_2                                 -0.016319                    1.040003                     1.84675
+mu_worst_C_2                                  -0.008293                   -0.039790                    -0.02149
+gamma_WI_Q1_C_2                                0.003654                    0.292234                     0.36678
+gamma_HH_4_OrMore_Y_C_2                        0.034784                    0.203900                     0.08910
+gamma_Informal_C_2                             0.036911                    2.085544                     3.99000
+gamma_Benefit_Subsidy_Y_C_2                   -0.010417                    0.055860                     0.16976
+delta_C_2                                     -0.074104                   -2.042910                    -3.60203
+b_Income_C_3                                  -0.006231                   -0.048081                    -0.06380
+b_HH_Member_C_3                               -0.005817                   -0.186190                    -0.32097
+b_Caste_C_3                                   -0.025418                    0.017010                     0.09692
+b_Elderly_DiffAble_C_3                        -0.008422                   -0.024711                    -0.01722
+b_NotPlanned_C_3                              -0.013134                    0.092549                     0.21652
+b_10k_All_C_3                                 -0.015786                   -0.038564                    -0.02056
+mu_worst_C_3                                  -0.003218                    0.002715                     0.01356
+gamma_WI_Q1_C_3                               -0.015824                    0.113487                     0.30287
+gamma_HH_4_OrMore_Y_C_3                       -0.026907                   -1.145833                    -2.02014
+gamma_Informal_C_3                             0.013270                    0.438494                     0.63320
+gamma_Benefit_Subsidy_Y_C_3                   -0.022648                   -0.398577                    -0.69636
+delta_C_3                                      0.026395                    1.421044                     2.56504
+                                            b_Caste_C_2      b_Elderly_DiffAble_C_2            b_NotPlanned_C_2
+b_Income_C_1                                   0.225829                    0.208701                    0.148437
+b_HH_Member_C_1                                0.428200                    0.328778                    0.272307
+b_Caste_C_1                                   -0.451390                   -0.287251                   -0.142051
+b_Elderly_DiffAble_C_1                         0.479495                    0.350279                    0.338874
+b_NotPlanned_C_1                               0.324144                    0.251322                    0.108355
+b_10k_All_C_1                                  0.591164                    0.466536                    0.374914
+mu_worst_C_1                                  -0.048479                   -0.046017                   -0.005903
+b_Income_C_2                                   1.384773                    0.867487                    1.096454
+b_HH_Member_C_2                                2.659437                    1.855289                    1.949600
+b_Caste_C_2                                    4.375053                    2.817485                    2.024638
+b_Elderly_DiffAble_C_2                         2.817485                    2.215739                    1.451314
+b_NotPlanned_C_2                               2.024638                    1.451314                    2.035039
+b_10k_All_C_2                                  2.283735                    1.543276                    1.740943
+mu_worst_C_2                                   0.205869                    0.124416                   -0.114340
+gamma_WI_Q1_C_2                                0.574406                    0.289369                    0.337476
+gamma_HH_4_OrMore_Y_C_2                       -0.240591                   -0.259385                    0.316661
+gamma_Informal_C_2                             2.299937                    1.775711                    4.570163
+gamma_Benefit_Subsidy_Y_C_2                    0.249764                    0.280949                    0.168917
+delta_C_2                                     -1.596958                   -1.187392                   -4.407895
+b_Income_C_3                                  -0.038752                   -0.025640                   -0.065873
+b_HH_Member_C_3                               -0.193129                   -0.120152                   -0.359778
+b_Caste_C_3                                    0.045065                   -0.003753                    0.088113
+b_Elderly_DiffAble_C_3                        -0.014770                   -0.007064                   -0.015069
+b_NotPlanned_C_3                               0.128333                    0.090776                    0.232246
+b_10k_All_C_3                                 -0.028924                   -0.023930                   -0.025505
+mu_worst_C_3                                  -0.002974                   -0.009889                    0.008743
+gamma_WI_Q1_C_3                                0.478123                    0.482412                    0.323074
+gamma_HH_4_OrMore_Y_C_3                       -1.288277                   -0.897235                   -2.294651
+gamma_Informal_C_3                             0.521636                    0.172510                    0.747589
+gamma_Benefit_Subsidy_Y_C_3                   -0.419682                   -0.303385                   -0.790729
+delta_C_3                                      1.651779                    1.180818                    2.898195
+                                          b_10k_All_C_2                mu_worst_C_2             gamma_WI_Q1_C_2
+b_Income_C_1                                    0.15131                    0.008852                   -0.015005
+b_HH_Member_C_1                                 0.27894                    0.010830                    0.049993
+b_Caste_C_1                                    -0.19461                   -0.035768                   -0.071109
+b_Elderly_DiffAble_C_1                          0.33251                    0.001625                    0.057742
+b_NotPlanned_C_1                                0.15195                    0.027683                    0.023520
+b_10k_All_C_1                                   0.37128                    0.014389                    0.056013
+mu_worst_C_1                                   -0.01632                   -0.008293                    0.003654
+b_Income_C_2                                    1.04000                   -0.039790                    0.292234
+b_HH_Member_C_2                                 1.84675                   -0.021494                    0.366781
+b_Caste_C_2                                     2.28374                    0.205869                    0.574406
+b_Elderly_DiffAble_C_2                          1.54328                    0.124416                    0.289369
+b_NotPlanned_C_2                                1.74094                   -0.114340                    0.337476
+b_10k_All_C_2                                   1.74417                   -0.025428                    0.347707
+mu_worst_C_2                                   -0.02543                    0.058405                  9.9700e-04
+gamma_WI_Q1_C_2                                 0.34771                  9.9700e-04                    0.282683
+gamma_HH_4_OrMore_Y_C_2                         0.12861                   -0.111708                    0.111325
+gamma_Informal_C_2                              3.46575                   -0.620815                    0.356168
+gamma_Benefit_Subsidy_Y_C_2                     0.14961                    0.011972                    0.053771
+delta_C_2                                      -3.17232                    0.702829                   -0.459520
+b_Income_C_3                                   -0.05901                    0.012013                   -0.005161
+b_HH_Member_C_3                                -0.28827                    0.051138                   -0.041633
+b_Caste_C_3                                     0.09098                   -0.009069                    0.025302
+b_Elderly_DiffAble_C_3                         -0.01633                    0.004349                  4.5129e-04
+b_NotPlanned_C_3                                0.18574                   -0.029005                    0.030952
+b_10k_All_C_3                                  -0.02345                    0.004836                 -1.4222e-04
+mu_worst_C_3                                    0.01204                   -0.003512                    0.002448
+gamma_WI_Q1_C_3                                 0.16043                    0.032071                    0.104797
+gamma_HH_4_OrMore_Y_C_3                        -1.79494                    0.303860                   -0.272933
+gamma_Informal_C_3                              0.66124                   -0.085153                    0.140204
+gamma_Benefit_Subsidy_Y_C_3                    -0.61328                    0.113135                   -0.082318
+delta_C_3                                       2.27164                   -0.377261                    0.333715
+                                gamma_HH_4_OrMore_Y_C_2          gamma_Informal_C_2 gamma_Benefit_Subsidy_Y_C_2
+b_Income_C_1                                  -0.066522                     0.29825                    0.042656
+b_HH_Member_C_1                               -0.034463                     0.39323                    0.063553
+b_Caste_C_1                                    0.116739                     0.01353                   -0.018704
+b_Elderly_DiffAble_C_1                        -0.013799                     0.60760                    0.051238
+b_NotPlanned_C_1                              -0.096102                    -0.01034                    0.047826
+b_10k_All_C_1                                 -0.073029                     0.61834                    0.085400
+mu_worst_C_1                                   0.034784                     0.03691                   -0.010417
+b_Income_C_2                                   0.203900                     2.08554                    0.055860
+b_HH_Member_C_2                                0.089098                     3.99000                    0.169757
+b_Caste_C_2                                   -0.240591                     2.29994                    0.249764
+b_Elderly_DiffAble_C_2                        -0.259385                     1.77571                    0.280949
+b_NotPlanned_C_2                               0.316661                     4.57016                    0.168917
+b_10k_All_C_2                                  0.128614                     3.46575                    0.149611
+mu_worst_C_2                                  -0.111708                    -0.62082                    0.011972
+gamma_WI_Q1_C_2                                0.111325                     0.35617                    0.053771
+gamma_HH_4_OrMore_Y_C_2                        0.559743                     1.11103                   -0.038015
+gamma_Informal_C_2                             1.111035                    17.69961                   -0.083609
+gamma_Benefit_Subsidy_Y_C_2                   -0.038015                    -0.08361                    0.197468
+delta_C_2                                     -1.595812                   -17.48093                    0.085235
+b_Income_C_3                                  -0.035596                    -0.32868                    0.017941
+b_HH_Member_C_3                               -0.104104                    -1.44597                    0.025597
+b_Caste_C_3                                   -0.045038                     0.35628                    0.022490
+b_Elderly_DiffAble_C_3                        -0.027050                    -0.10416                    0.021607
+b_NotPlanned_C_3                               0.021529                     0.85049                    0.022590
+b_10k_All_C_3                                 -0.047990                    -0.13635                    0.027621
+mu_worst_C_3                                  -0.004298                     0.09121                   -0.001203
+gamma_WI_Q1_C_3                               -0.044340                    -0.49439                    0.175075
+gamma_HH_4_OrMore_Y_C_3                       -0.656762                    -8.72920                    0.071363
+gamma_Informal_C_3                             0.237552                     2.56755                   -0.059135
+gamma_Benefit_Subsidy_Y_C_3                   -0.233532                    -3.14235                    0.039692
+delta_C_3                                      0.769508                    10.90755                   -0.052698
+                                              delta_C_2                b_Income_C_3             b_HH_Member_C_3
+b_Income_C_1                                   -0.18017                    0.008507                   -0.015854
+b_HH_Member_C_1                                -0.29032                    0.015165                   -0.029453
+b_Caste_C_1                                    -0.16357                   -0.010785                   -0.002640
+b_Elderly_DiffAble_C_1                         -0.50063                   -0.006387                   -0.049232
+b_NotPlanned_C_1                                0.13503                    0.021894                    0.004945
+b_10k_All_C_1                                  -0.44686                    0.013377                   -0.040611
+mu_worst_C_1                                   -0.07410                   -0.006231                   -0.005817
+b_Income_C_2                                   -2.04291                   -0.048081                   -0.186190
+b_HH_Member_C_2                                -3.60203                   -0.063798                   -0.320973
+b_Caste_C_2                                    -1.59696                   -0.038752                   -0.193129
+b_Elderly_DiffAble_C_2                         -1.18739                   -0.025640                   -0.120152
+b_NotPlanned_C_2                               -4.40790                   -0.065873                   -0.359778
+b_10k_All_C_2                                  -3.17232                   -0.059010                   -0.288265
+mu_worst_C_2                                    0.70283                    0.012013                    0.051138
+gamma_WI_Q1_C_2                                -0.45952                   -0.005161                   -0.041633
+gamma_HH_4_OrMore_Y_C_2                        -1.59581                   -0.035596                   -0.104104
+gamma_Informal_C_2                            -17.48093                   -0.328685                   -1.445966
+gamma_Benefit_Subsidy_Y_C_2                     0.08523                    0.017941                    0.025597
+delta_C_2                                      17.87668                    0.341231                    1.445539
+b_Income_C_3                                    0.34123                    0.156647                    0.110688
+b_HH_Member_C_3                                 1.44554                    0.110688                    0.311062
+b_Caste_C_3                                    -0.28360                    0.366619                    0.007924
+b_Elderly_DiffAble_C_3                          0.12372                    0.144093                    0.112516
+b_NotPlanned_C_3                               -0.80758                    0.200515                    0.024179
+b_10k_All_C_3                                   0.17516                    0.227135                    0.120017
+mu_worst_C_3                                   -0.08192                    0.049238                   -0.027435
+gamma_WI_Q1_C_3                                 0.54849                    0.206048                    0.251344
+gamma_HH_4_OrMore_Y_C_3                         8.73516                    0.322180                    0.899865
+gamma_Informal_C_3                             -2.59263                   -0.133071                   -0.330811
+gamma_Benefit_Subsidy_Y_C_3                     3.15375                    0.217740                    0.380034
+delta_C_3                                     -10.86630                   -0.330011                   -1.103441
+                                            b_Caste_C_3      b_Elderly_DiffAble_C_3            b_NotPlanned_C_3
+b_Income_C_1                                   0.089077                    0.022631                     0.06220
+b_HH_Member_C_1                                0.125209                    0.032123                     0.08677
+b_Caste_C_1                                   -0.052490                   -0.011522                    -0.02362
+b_Elderly_DiffAble_C_1                         0.042623                    0.002571                     0.04658
+b_NotPlanned_C_1                               0.113407                    0.034534                     0.06585
+b_10k_All_C_1                                  0.107923                    0.033427                     0.09047
+mu_worst_C_1                                  -0.025418                   -0.008422                    -0.01313
+b_Income_C_2                                   0.017010                   -0.024711                     0.09255
+b_HH_Member_C_2                                0.096918                   -0.017219                     0.21652
+b_Caste_C_2                                    0.045065                   -0.014770                     0.12833
+b_Elderly_DiffAble_C_2                        -0.003753                   -0.007064                     0.09078
+b_NotPlanned_C_2                               0.088113                   -0.015069                     0.23225
+b_10k_All_C_2                                  0.090983                   -0.016327                     0.18574
+mu_worst_C_2                                  -0.009069                    0.004349                    -0.02900
+gamma_WI_Q1_C_2                                0.025302                  4.5129e-04                     0.03095
+gamma_HH_4_OrMore_Y_C_2                       -0.045038                   -0.027050                     0.02153
+gamma_Informal_C_2                             0.356277                   -0.104156                     0.85049
+gamma_Benefit_Subsidy_Y_C_2                    0.022490                    0.021607                     0.02259
+delta_C_2                                     -0.283602                    0.123718                    -0.80758
+b_Income_C_3                                   0.366619                    0.144093                     0.20052
+b_HH_Member_C_3                                0.007924                    0.112516                     0.02418
+b_Caste_C_3                                    3.017216                    0.474167                     1.39844
+b_Elderly_DiffAble_C_3                         0.474167                    0.206978                     0.29419
+b_NotPlanned_C_3                               1.398441                    0.294189                     0.79475
+b_10k_All_C_3                                  1.276196                    0.311985                     0.68044
+mu_worst_C_3                                   0.573791                    0.063837                     0.25594
+gamma_WI_Q1_C_3                               -0.155237                    0.132629                    -0.03484
+gamma_HH_4_OrMore_Y_C_3                        0.409978                    0.170108                    -0.20744
+gamma_Informal_C_3                            -0.271094                   -0.099251                    -0.08040
+gamma_Benefit_Subsidy_Y_C_3                    0.684500                    0.203164                     0.23014
+delta_C_3                                     -0.133486                   -0.115348                     0.46200
+                                          b_10k_All_C_3                mu_worst_C_3             gamma_WI_Q1_C_3
+b_Income_C_1                                   0.047263                    0.013524                     0.01292
+b_HH_Member_C_1                                0.063071                    0.017794                     0.07879
+b_Caste_C_1                                   -0.021091                   -0.003222                    -0.11288
+b_Elderly_DiffAble_C_1                         0.010067                    0.006067                     0.05496
+b_NotPlanned_C_1                               0.065325                    0.015453                     0.06110
+b_10k_All_C_1                                  0.054451                    0.011794                     0.10344
+mu_worst_C_1                                  -0.015786                   -0.003218                    -0.01582
+b_Income_C_2                                  -0.038564                    0.002715                     0.11349
+b_HH_Member_C_2                               -0.020561                    0.013557                     0.30287
+b_Caste_C_2                                   -0.028924                   -0.002974                     0.47812
+b_Elderly_DiffAble_C_2                        -0.023930                   -0.009889                     0.48241
+b_NotPlanned_C_2                              -0.025505                    0.008743                     0.32307
+b_10k_All_C_2                                 -0.023446                    0.012044                     0.16043
+mu_worst_C_2                                   0.004836                   -0.003512                     0.03207
+gamma_WI_Q1_C_2                             -1.4222e-04                    0.002448                     0.10480
+gamma_HH_4_OrMore_Y_C_2                       -0.047990                   -0.004298                    -0.04434
+gamma_Informal_C_2                            -0.136350                    0.091206                    -0.49439
+gamma_Benefit_Subsidy_Y_C_2                    0.027621                   -0.001203                     0.17508
+delta_C_2                                      0.175164                   -0.081924                     0.54849
+b_Income_C_3                                   0.227135                    0.049238                     0.20605
+b_HH_Member_C_3                                0.120017                   -0.027435                     0.25134
+b_Caste_C_3                                    1.276196                    0.573791                    -0.15524
+b_Elderly_DiffAble_C_3                         0.311985                    0.063837                     0.13263
+b_NotPlanned_C_3                               0.680443                    0.255945                    -0.03484
+b_10k_All_C_3                                  0.725228                    0.220172                     0.10107
+mu_worst_C_3                                   0.220172                    0.125734                    -0.09787
+gamma_WI_Q1_C_3                                0.101073                   -0.097874                     2.47046
+gamma_HH_4_OrMore_Y_C_3                        0.400109                    0.066198                     0.53263
+gamma_Informal_C_3                            -0.235463                   -0.048748                    -0.79607
+gamma_Benefit_Subsidy_Y_C_3                    0.454140                    0.097607                     0.37004
+delta_C_3                                     -0.295863                   -0.007913                    -0.65111
+                                gamma_HH_4_OrMore_Y_C_3          gamma_Informal_C_3 gamma_Benefit_Subsidy_Y_C_3
+b_Income_C_1                                  -0.104251                    0.021180                   -0.002146
+b_HH_Member_C_1                               -0.201749                    0.066353                   -0.022262
+b_Caste_C_1                                    0.015989                   -0.011747                   -0.022629
+b_Elderly_DiffAble_C_1                        -0.292464                    0.108387                   -0.088968
+b_NotPlanned_C_1                              -0.005507                   -0.001465                    0.048879
+b_10k_All_C_1                                 -0.333481                    0.126498                   -0.063985
+mu_worst_C_1                                  -0.026907                    0.013270                   -0.022648
+b_Income_C_2                                  -1.145833                    0.438494                   -0.398577
+b_HH_Member_C_2                               -2.020144                    0.633196                   -0.696357
+b_Caste_C_2                                   -1.288277                    0.521636                   -0.419682
+b_Elderly_DiffAble_C_2                        -0.897235                    0.172510                   -0.303385
+b_NotPlanned_C_2                              -2.294651                    0.747589                   -0.790729
+b_10k_All_C_2                                 -1.794937                    0.661243                   -0.613284
+mu_worst_C_2                                   0.303860                   -0.085153                    0.113135
+gamma_WI_Q1_C_2                               -0.272933                    0.140204                   -0.082318
+gamma_HH_4_OrMore_Y_C_2                       -0.656762                    0.237552                   -0.233532
+gamma_Informal_C_2                            -8.729196                    2.567555                   -3.142348
+gamma_Benefit_Subsidy_Y_C_2                    0.071363                   -0.059135                    0.039692
+delta_C_2                                      8.735165                   -2.592633                    3.153748
+b_Income_C_3                                   0.322180                   -0.133071                    0.217740
+b_HH_Member_C_3                                0.899865                   -0.330811                    0.380034
+b_Caste_C_3                                    0.409978                   -0.271094                    0.684500
+b_Elderly_DiffAble_C_3                         0.170108                   -0.099251                    0.203164
+b_NotPlanned_C_3                              -0.207439                   -0.080402                    0.230135
+b_10k_All_C_3                                  0.400109                   -0.235463                    0.454140
+mu_worst_C_3                                   0.066198                   -0.048748                    0.097607
+gamma_WI_Q1_C_3                                0.532631                   -0.796066                    0.370039
+gamma_HH_4_OrMore_Y_C_3                        6.637915                   -2.124154                    2.318234
+gamma_Informal_C_3                            -2.124154                    1.678534                   -1.064247
+gamma_Benefit_Subsidy_Y_C_3                    2.318234                   -1.064247                    1.556459
+delta_C_3                                     -7.712470                    2.397395                   -2.902125
+                                              delta_C_3
+b_Income_C_1                                   0.162315
+b_HH_Member_C_1                                0.287203
+b_Caste_C_1                                   -0.024333
+b_Elderly_DiffAble_C_1                         0.379144
+b_NotPlanned_C_1                               0.037372
+b_10k_All_C_1                                  0.439042
+mu_worst_C_1                                   0.026395
+b_Income_C_2                                   1.421044
+b_HH_Member_C_2                                2.565043
+b_Caste_C_2                                    1.651779
+b_Elderly_DiffAble_C_2                         1.180818
+b_NotPlanned_C_2                               2.898195
+b_10k_All_C_2                                  2.271643
+mu_worst_C_2                                  -0.377261
+gamma_WI_Q1_C_2                                0.333715
+gamma_HH_4_OrMore_Y_C_2                        0.769508
+gamma_Informal_C_2                            10.907547
+gamma_Benefit_Subsidy_Y_C_2                   -0.052698
+delta_C_2                                    -10.866303
+b_Income_C_3                                  -0.330011
+b_HH_Member_C_3                               -1.103441
+b_Caste_C_3                                   -0.133486
+b_Elderly_DiffAble_C_3                        -0.115348
+b_NotPlanned_C_3                               0.462004
+b_10k_All_C_3                                 -0.295863
+mu_worst_C_3                                  -0.007913
+gamma_WI_Q1_C_3                               -0.651109
+gamma_HH_4_OrMore_Y_C_3                       -7.712470
+gamma_Informal_C_3                             2.397395
+gamma_Benefit_Subsidy_Y_C_3                   -2.902125
+delta_C_3                                      9.377417
+
+Classical correlation matrix:
+                                           b_Income_C_1             b_HH_Member_C_1                 b_Caste_C_1
+b_Income_C_1                                   1.000000                     0.67626                   -0.043988
+b_HH_Member_C_1                                0.676258                     1.00000                    0.015775
+b_Caste_C_1                                   -0.043988                     0.01578                    1.000000
+b_Elderly_DiffAble_C_1                         0.662624                     0.72663                   -0.007220
+b_NotPlanned_C_1                               0.694959                     0.70348                   -0.034744
+b_10k_All_C_1                                  0.723242                     0.75886                   -0.068814
+mu_worst_C_1                                  -0.360802                    -0.26884                    0.719011
+b_Income_C_2                                   0.147572                     0.37232                   -0.048657
+b_HH_Member_C_2                                0.380177                     0.47312                   -0.098113
+b_Caste_C_2                                    0.331653                     0.42976                   -0.177858
+b_Elderly_DiffAble_C_2                         0.395725                     0.48203                   -0.127105
+b_NotPlanned_C_2                               0.317122                     0.46539                   -0.052474
+b_10k_All_C_2                                  0.374202                     0.51485                   -0.085983
+mu_worst_C_2                                   0.159103                     0.14843                   -0.170309
+gamma_WI_Q1_C_2                               -0.032685                     0.07598                   -0.062139
+gamma_HH_4_OrMore_Y_C_2                       -0.205774                    -0.13722                    0.088726
+gamma_Informal_C_2                             0.060583                     0.04630                    0.028001
+gamma_Benefit_Subsidy_Y_C_2                    0.185288                     0.20986                   -0.012064
+delta_C_2                                      0.034492                     0.04585                   -0.048593
+b_Income_C_3                                   0.023215                     0.05617                   -0.011667
+b_HH_Member_C_3                               -0.010678                    -0.02245                   -0.009944
+b_Caste_C_3                                    0.095362                     0.11191                   -0.022176
+b_Elderly_DiffAble_C_3                         0.085417                     0.10754                   -0.006166
+b_NotPlanned_C_3                               0.122122                     0.14127                   -0.009530
+b_10k_All_C_3                                  0.115591                     0.13409                   -0.013494
+mu_worst_C_3                                   0.061789                     0.06579                   -0.006966
+gamma_WI_Q1_C_3                                0.005015                     0.05372                   -0.043815
+gamma_HH_4_OrMore_Y_C_3                       -0.056209                    -0.08089                   -0.025921
+gamma_Informal_C_3                             0.037796                     0.05029                    0.022116
+gamma_Benefit_Subsidy_Y_C_3                    0.014494                     0.01751                   -0.028339
+delta_C_3                                      0.095585                     0.12309                    0.029139
+                                 b_Elderly_DiffAble_C_1            b_NotPlanned_C_1               b_10k_All_C_1
+b_Income_C_1                                   0.662624                    0.694959                    0.723242
+b_HH_Member_C_1                                0.726625                    0.703475                    0.758860
+b_Caste_C_1                                   -0.007220                   -0.034744                   -0.068814
+b_Elderly_DiffAble_C_1                         1.000000                    0.677759                    0.749705
+b_NotPlanned_C_1                               0.677759                    1.000000                    0.759857
+b_10k_All_C_1                                  0.749705                    0.759857                    1.000000
+mu_worst_C_1                                  -0.248365                   -0.328759                   -0.355167
+b_Income_C_2                                   0.446527                    0.226947                    0.377008
+b_HH_Member_C_2                                0.555551                    0.395944                    0.546502
+b_Caste_C_2                                    0.466016                    0.402791                    0.483463
+b_Elderly_DiffAble_C_2                         0.503095                    0.445160                    0.546294
+b_NotPlanned_C_2                               0.532845                    0.259412                    0.484741
+b_10k_All_C_2                                  0.574758                    0.380117                    0.524371
+mu_worst_C_2                                   0.114238                    0.244597                    0.184811
+gamma_WI_Q1_C_2                                0.095033                    0.024376                    0.076351
+gamma_HH_4_OrMore_Y_C_2                       -0.117737                   -0.252565                   -0.210949
+gamma_Informal_C_2                             0.092600                   -0.070479                    0.075009
+gamma_Benefit_Subsidy_Y_C_2                    0.181602                    0.157607                    0.213948
+delta_C_2                                      0.003862                    0.175852                    0.037873
+b_Income_C_3                                  -0.013360                    0.088111                    0.057605
+b_HH_Member_C_3                               -0.063361                    0.046260                   -0.014008
+b_Caste_C_3                                    0.044605                    0.118142                    0.085411
+b_Elderly_DiffAble_C_3                         0.004620                    0.133871                    0.109484
+b_NotPlanned_C_3                               0.064620                    0.138846                    0.126688
+b_10k_All_C_3                                  0.037126                    0.158859                    0.110800
+mu_worst_C_3                                   0.028841                    0.060931                    0.031632
+gamma_WI_Q1_C_3                                0.043034                    0.037963                    0.046901
+gamma_HH_4_OrMore_Y_C_3                       -0.105783                   -0.003911                   -0.110167
+gamma_Informal_C_3                             0.056575                    0.022699                    0.083730
+gamma_Benefit_Subsidy_Y_C_3                   -0.035886                    0.062119                   -0.008834
+delta_C_3                                      0.138488                    0.046678                    0.155765
+                                           mu_worst_C_1                b_Income_C_2             b_HH_Member_C_2
+b_Income_C_1                                   -0.36080                    0.147572                     0.38018
+b_HH_Member_C_1                                -0.26884                    0.372320                     0.47312
+b_Caste_C_1                                     0.71901                   -0.048657                    -0.09811
+b_Elderly_DiffAble_C_1                         -0.24837                    0.446527                     0.55555
+b_NotPlanned_C_1                               -0.32876                    0.226947                     0.39594
+b_10k_All_C_1                                  -0.35517                    0.377008                     0.54650
+mu_worst_C_1                                    1.00000                   -0.013665                    -0.14939
+b_Income_C_2                                   -0.01367                    1.000000                     0.73990
+b_HH_Member_C_2                                -0.14939                    0.739896                     1.00000
+b_Caste_C_2                                    -0.19269                    0.564470                     0.81458
+b_Elderly_DiffAble_C_2                         -0.22540                    0.581585                     0.83808
+b_NotPlanned_C_2                               -0.08727                    0.817681                     0.81273
+b_10k_All_C_2                                  -0.15212                    0.791325                     0.86704
+mu_worst_C_2                                   -0.22811                   -0.010622                     0.28979
+gamma_WI_Q1_C_2                                 0.02140                    0.339454                     0.25471
+gamma_HH_4_OrMore_Y_C_2                         0.20523                    0.097059                    -0.11389
+gamma_Informal_C_2                              0.06551                    0.263006                     0.29443
+gamma_Benefit_Subsidy_Y_C_2                    -0.08626                    0.116324                     0.17679
+delta_C_2                                      -0.12669                   -0.219624                    -0.19412
+b_Income_C_3                                   -0.05803                   -0.061265                    -0.03377
+b_HH_Member_C_3                                -0.04679                   -0.137406                    -0.12937
+b_Caste_C_3                                    -0.07505                    0.003702                     0.01830
+b_Elderly_DiffAble_C_3                         -0.08129                   -0.031191                    -0.01117
+b_NotPlanned_C_3                               -0.08162                    0.042000                     0.06691
+b_10k_All_C_3                                  -0.10207                   -0.024603                  1.8028e-04
+mu_worst_C_3                                   -0.04233                    0.002755                     0.01022
+gamma_WI_Q1_C_3                                -0.03889                    0.060872                     0.09283
+gamma_HH_4_OrMore_Y_C_3                        -0.04480                   -0.214568                    -0.20901
+gamma_Informal_C_3                              0.02920                    0.098236                     0.03708
+gamma_Benefit_Subsidy_Y_C_3                    -0.07231                   -0.116952                    -0.11857
+delta_C_3                                       0.02783                    0.240599                     0.25037
+                                            b_Caste_C_2      b_Elderly_DiffAble_C_2            b_NotPlanned_C_2
+b_Income_C_1                                   0.331653                    0.395725                    0.317122
+b_HH_Member_C_1                                0.429765                    0.482027                    0.465389
+b_Caste_C_1                                   -0.177858                   -0.127105                   -0.052474
+b_Elderly_DiffAble_C_1                         0.466016                    0.503095                    0.532845
+b_NotPlanned_C_1                               0.402791                    0.445160                    0.259412
+b_10k_All_C_1                                  0.483463                    0.546294                    0.484741
+mu_worst_C_1                                  -0.192692                   -0.225396                   -0.087266
+b_Income_C_2                                   0.564470                    0.581585                    0.817681
+b_HH_Member_C_2                                0.814582                    0.838078                    0.812729
+b_Caste_C_2                                    1.000000                    0.885073                    0.578625
+b_Elderly_DiffAble_C_2                         0.885073                    1.000000                    0.623971
+b_NotPlanned_C_2                               0.578625                    0.623971                    1.000000
+b_10k_All_C_2                                  0.708218                    0.733894                    0.868014
+mu_worst_C_2                                   0.691115                    0.553599                   -0.048843
+gamma_WI_Q1_C_2                                0.263536                    0.216690                    0.283027
+gamma_HH_4_OrMore_Y_C_2                       -0.204417                   -0.222730                    0.071693
+gamma_Informal_C_2                             0.048662                    0.067637                    0.429632
+gamma_Benefit_Subsidy_Y_C_2                    0.175463                    0.249627                    0.182899
+delta_C_2                                      0.047856                    0.039152                   -0.368585
+b_Income_C_3                                -1.9877e-04                   -0.004732                   -0.039872
+b_HH_Member_C_3                               -0.022694                   -0.015037                   -0.177878
+b_Caste_C_3                                    0.003891                   -0.002280                    0.008001
+b_Elderly_DiffAble_C_3                        -0.007930                   -0.006120                   -0.014784
+b_NotPlanned_C_3                               0.014329                    0.016799                    0.072475
+b_10k_All_C_3                                 -0.001324                   -0.003766                   -0.011804
+mu_worst_C_3                                  -0.006089                   -0.012189                   -0.008477
+gamma_WI_Q1_C_3                                0.128387                    0.161232                    0.083468
+gamma_HH_4_OrMore_Y_C_3                       -0.053270                   -0.059194                   -0.303257
+gamma_Informal_C_3                            -0.009955                   -0.088690                    0.143083
+gamma_Benefit_Subsidy_Y_C_3                   -0.027232                   -0.033097                   -0.169398
+delta_C_3                                      0.073620                    0.085241                    0.348586
+                                          b_10k_All_C_2                mu_worst_C_2             gamma_WI_Q1_C_2
+b_Income_C_1                                   0.374202                    0.159103                   -0.032685
+b_HH_Member_C_1                                0.514849                    0.148433                    0.075983
+b_Caste_C_1                                   -0.085983                   -0.170309                   -0.062139
+b_Elderly_DiffAble_C_1                         0.574758                    0.114238                    0.095033
+b_NotPlanned_C_1                               0.380117                    0.244597                    0.024376
+b_10k_All_C_1                                  0.524371                    0.184811                    0.076351
+mu_worst_C_1                                  -0.152125                   -0.228115                    0.021403
+b_Income_C_2                                   0.791325                   -0.010622                    0.339454
+b_HH_Member_C_2                                0.867042                    0.289786                    0.254713
+b_Caste_C_2                                    0.708218                    0.691115                    0.263536
+b_Elderly_DiffAble_C_2                         0.733894                    0.553599                    0.216690
+b_NotPlanned_C_2                               0.868014                   -0.048843                    0.283027
+b_10k_All_C_2                                  1.000000                    0.141902                    0.272261
+mu_worst_C_2                                   0.141902                    1.000000                    0.071485
+gamma_WI_Q1_C_2                                0.272261                    0.071485                    1.000000
+gamma_HH_4_OrMore_Y_C_2                       -0.044421                   -0.311700                    0.190480
+gamma_Informal_C_2                             0.305630                   -0.298401                   -0.002472
+gamma_Benefit_Subsidy_Y_C_2                    0.177636                    0.069264                    0.310773
+delta_C_2                                     -0.219016                    0.363464                   -0.077113
+b_Income_C_3                                  -0.033769                    0.047777                    0.017274
+b_HH_Member_C_3                               -0.137272                    0.131006                   -0.012349
+b_Caste_C_3                                    0.016892                   -0.002230                    0.012339
+b_Elderly_DiffAble_C_3                        -0.010610                    0.008199                    0.020726
+b_NotPlanned_C_3                               0.064786                   -0.054933                    0.023909
+b_10k_All_C_3                                 -0.005864                    0.008405                    0.011829
+mu_worst_C_3                                   0.002408                   -0.016398                   -0.002379
+gamma_WI_Q1_C_3                                0.075535                    0.104342                    0.147709
+gamma_HH_4_OrMore_Y_C_3                       -0.233035                    0.189148                   -0.039758
+gamma_Informal_C_3                             0.116709                   -0.098373                    0.030736
+gamma_Benefit_Subsidy_Y_C_3                   -0.127197                    0.115175                   -0.009814
+delta_C_3                                      0.273459                   -0.203996                    0.044928
+                                gamma_HH_4_OrMore_Y_C_2          gamma_Informal_C_2 gamma_Benefit_Subsidy_Y_C_2
+b_Income_C_1                                  -0.205774                    0.060583                    0.185288
+b_HH_Member_C_1                               -0.137224                    0.046296                    0.209856
+b_Caste_C_1                                    0.088726                    0.028001                   -0.012064
+b_Elderly_DiffAble_C_1                        -0.117737                    0.092600                    0.181602
+b_NotPlanned_C_1                              -0.252565                   -0.070479                    0.157607
+b_10k_All_C_1                                 -0.210949                    0.075009                    0.213948
+mu_worst_C_1                                   0.205233                    0.065514                   -0.086257
+b_Income_C_2                                   0.097059                    0.263006                    0.116324
+b_HH_Member_C_2                               -0.113895                    0.294432                    0.176786
+b_Caste_C_2                                   -0.204417                    0.048662                    0.175463
+b_Elderly_DiffAble_C_2                        -0.222730                    0.067637                    0.249627
+b_NotPlanned_C_2                               0.071693                    0.429632                    0.182899
+b_10k_All_C_2                                 -0.044421                    0.305630                    0.177636
+mu_worst_C_2                                  -0.311700                   -0.298401                    0.069264
+gamma_WI_Q1_C_2                                0.190480                   -0.002472                    0.310773
+gamma_HH_4_OrMore_Y_C_2                        1.000000                    0.084705                    0.040581
+gamma_Informal_C_2                             0.084705                    1.000000                   -0.132063
+gamma_Benefit_Subsidy_Y_C_2                    0.040581                   -0.132063                    1.000000
+delta_C_2                                     -0.302248                   -0.966095                    0.065574
+b_Income_C_3                                  -0.031347                   -0.092761                    0.051524
+b_HH_Member_C_3                               -0.056207                   -0.338057                    0.079591
+b_Caste_C_3                                   -0.019597                   -0.006416                    0.009175
+b_Elderly_DiffAble_C_3                        -0.014720                   -0.058182                    0.060013
+b_NotPlanned_C_3                              -0.004114                    0.129555                    0.012930
+b_10k_All_C_3                                 -0.031318                   -0.046771                    0.036670
+mu_worst_C_3                                  -0.013293                   -0.007297                   -0.006086
+gamma_WI_Q1_C_3                                0.024872                   -0.073934                    0.171878
+gamma_HH_4_OrMore_Y_C_3                       -0.130311                   -0.557624                    0.087325
+gamma_Informal_C_3                             0.048515                    0.189714                   -0.091427
+gamma_Benefit_Subsidy_Y_C_3                   -0.043443                   -0.353537                    0.051428
+delta_C_3                                      0.114358                    0.626195                   -0.075216
+                                              delta_C_2                b_Income_C_3             b_HH_Member_C_3
+b_Income_C_1                                   0.034492                    0.023215                   -0.010678
+b_HH_Member_C_1                                0.045846                    0.056168                   -0.022453
+b_Caste_C_1                                   -0.048593                   -0.011667                   -0.009944
+b_Elderly_DiffAble_C_1                         0.003862                   -0.013360                   -0.063361
+b_NotPlanned_C_1                               0.175852                    0.088111                    0.046260
+b_10k_All_C_1                                  0.037873                    0.057605                   -0.014008
+mu_worst_C_1                                  -0.126693                   -0.058033                   -0.046785
+b_Income_C_2                                  -0.219624                   -0.061265                   -0.137406
+b_HH_Member_C_2                               -0.194120                   -0.033765                   -0.129371
+b_Caste_C_2                                    0.047856                 -1.9877e-04                   -0.022694
+b_Elderly_DiffAble_C_2                         0.039152                   -0.004732                   -0.015037
+b_NotPlanned_C_2                              -0.368585                   -0.039872                   -0.177878
+b_10k_All_C_2                                 -0.219016                   -0.033769                   -0.137272
+mu_worst_C_2                                   0.363464                    0.047777                    0.131006
+gamma_WI_Q1_C_2                               -0.077113                    0.017274                   -0.012349
+gamma_HH_4_OrMore_Y_C_2                       -0.302248                   -0.031347                   -0.056207
+gamma_Informal_C_2                            -0.966095                   -0.092761                   -0.338057
+gamma_Benefit_Subsidy_Y_C_2                    0.065574                    0.051524                    0.079591
+delta_C_2                                      1.000000                    0.094176                    0.331231
+b_Income_C_3                                   0.094176                    1.000000                    0.533872
+b_HH_Member_C_3                                0.331231                    0.533872                    1.000000
+b_Caste_C_3                                    0.013653                    0.259126                    0.163032
+b_Elderly_DiffAble_C_3                         0.060647                    0.595208                    0.514694
+b_NotPlanned_C_3                              -0.118483                    0.402245                    0.290860
+b_10k_All_C_3                                  0.054494                    0.497994                    0.436215
+mu_worst_C_3                                   0.011796                    0.027635                   -0.067071
+gamma_WI_Q1_C_3                                0.066168                    0.188868                    0.162417
+gamma_HH_4_OrMore_Y_C_3                        0.551154                    0.200559                    0.345469
+gamma_Informal_C_3                            -0.187675                   -0.155419                   -0.239998
+gamma_Benefit_Subsidy_Y_C_3                    0.345879                    0.248349                    0.322565
+delta_C_3                                     -0.611595                   -0.156315                   -0.345372
+                                            b_Caste_C_3      b_Elderly_DiffAble_C_3            b_NotPlanned_C_3
+b_Income_C_1                                   0.095362                    0.085417                    0.122122
+b_HH_Member_C_1                                0.111911                    0.107536                    0.141272
+b_Caste_C_1                                   -0.022176                   -0.006166                   -0.009530
+b_Elderly_DiffAble_C_1                         0.044605                    0.004620                    0.064620
+b_NotPlanned_C_1                               0.118142                    0.133871                    0.138846
+b_10k_All_C_1                                  0.085411                    0.109484                    0.126688
+mu_worst_C_1                                  -0.075051                   -0.081290                   -0.081619
+b_Income_C_2                                   0.003702                   -0.031191                    0.042000
+b_HH_Member_C_2                                0.018303                   -0.011172                    0.066912
+b_Caste_C_2                                    0.003891                   -0.007930                    0.014329
+b_Elderly_DiffAble_C_2                        -0.002280                   -0.006120                    0.016799
+b_NotPlanned_C_2                               0.008001                   -0.014784                    0.072475
+b_10k_All_C_2                                  0.016892                   -0.010610                    0.064786
+mu_worst_C_2                                  -0.002230                    0.008199                   -0.054933
+gamma_WI_Q1_C_2                                0.012339                    0.020726                    0.023909
+gamma_HH_4_OrMore_Y_C_2                       -0.019597                   -0.014720                   -0.004114
+gamma_Informal_C_2                            -0.006416                   -0.058182                    0.129555
+gamma_Benefit_Subsidy_Y_C_2                    0.009175                    0.060013                    0.012930
+delta_C_2                                      0.013653                    0.060647                   -0.118483
+b_Income_C_3                                   0.259126                    0.595208                    0.402245
+b_HH_Member_C_3                                0.163032                    0.514694                    0.290860
+b_Caste_C_3                                    1.000000                    0.384251                    0.820944
+b_Elderly_DiffAble_C_3                         0.384251                    1.000000                    0.538574
+b_NotPlanned_C_3                               0.820944                    0.538574                    1.000000
+b_10k_All_C_3                                  0.757096                    0.618607                    0.838897
+mu_worst_C_3                                   0.877048                    0.153128                    0.677472
+gamma_WI_Q1_C_3                               -0.040229                    0.093779                   -0.029060
+gamma_HH_4_OrMore_Y_C_3                        0.164305                    0.140785                    0.077844
+gamma_Informal_C_3                            -0.155106                   -0.151016                   -0.160246
+gamma_Benefit_Subsidy_Y_C_3                    0.293272                    0.270600                    0.268290
+delta_C_3                                     -0.108204                   -0.089543                    0.002901
+                                          b_10k_All_C_3                mu_worst_C_3             gamma_WI_Q1_C_3
+b_Income_C_1                                   0.115591                    0.061789                    0.005015
+b_HH_Member_C_1                                0.134088                    0.065786                    0.053722
+b_Caste_C_1                                   -0.013494                   -0.006966                   -0.043815
+b_Elderly_DiffAble_C_1                         0.037126                    0.028841                    0.043034
+b_NotPlanned_C_1                               0.158859                    0.060931                    0.037963
+b_10k_All_C_1                                  0.110800                    0.031632                    0.046901
+mu_worst_C_1                                  -0.102066                   -0.042325                   -0.038894
+b_Income_C_2                                  -0.024603                    0.002755                    0.060872
+b_HH_Member_C_2                              1.8028e-04                    0.010219                    0.092827
+b_Caste_C_2                                   -0.001324                   -0.006089                    0.128387
+b_Elderly_DiffAble_C_2                        -0.003766                   -0.012189                    0.161232
+b_NotPlanned_C_2                              -0.011804                   -0.008477                    0.083468
+b_10k_All_C_2                                 -0.005864                    0.002408                    0.075535
+mu_worst_C_2                                   0.008405                   -0.016398                    0.104342
+gamma_WI_Q1_C_2                                0.011829                   -0.002379                    0.147709
+gamma_HH_4_OrMore_Y_C_2                       -0.031318                   -0.013293                    0.024872
+gamma_Informal_C_2                            -0.046771                   -0.007297                   -0.073934
+gamma_Benefit_Subsidy_Y_C_2                    0.036670                   -0.006086                    0.171878
+delta_C_2                                      0.054494                    0.011796                    0.066168
+b_Income_C_3                                   0.497994                    0.027635                    0.188868
+b_HH_Member_C_3                                0.436215                   -0.067071                    0.162417
+b_Caste_C_3                                    0.757096                    0.877048                   -0.040229
+b_Elderly_DiffAble_C_3                         0.618607                    0.153128                    0.093779
+b_NotPlanned_C_3                               0.838897                    0.677472                   -0.029060
+b_10k_All_C_3                                  1.000000                    0.562271                    0.042284
+mu_worst_C_3                                   0.562271                    1.000000                   -0.113516
+gamma_WI_Q1_C_3                                0.042284                   -0.113516                    1.000000
+gamma_HH_4_OrMore_Y_C_3                        0.225103                    0.132749                    0.080445
+gamma_Informal_C_3                            -0.229985                   -0.118415                   -0.415484
+gamma_Benefit_Subsidy_Y_C_3                    0.394419                    0.196024                    0.104423
+delta_C_3                                     -0.156432                   -0.094299                   -0.089066
+                                gamma_HH_4_OrMore_Y_C_3          gamma_Informal_C_3 gamma_Benefit_Subsidy_Y_C_3
+b_Income_C_1                                  -0.056209                    0.037796                    0.014494
+b_HH_Member_C_1                               -0.080886                    0.050289                    0.017515
+b_Caste_C_1                                   -0.025921                    0.022116                   -0.028339
+b_Elderly_DiffAble_C_1                        -0.105783                    0.056575                   -0.035886
+b_NotPlanned_C_1                              -0.003911                    0.022699                    0.062119
+b_10k_All_C_1                                 -0.110167                    0.083730                   -0.008834
+mu_worst_C_1                                  -0.044803                    0.029201                   -0.072308
+b_Income_C_2                                  -0.214568                    0.098236                   -0.116952
+b_HH_Member_C_2                               -0.209013                    0.037079                   -0.118568
+b_Caste_C_2                                   -0.053270                   -0.009955                   -0.027232
+b_Elderly_DiffAble_C_2                        -0.059194                   -0.088690                   -0.033097
+b_NotPlanned_C_2                              -0.303257                    0.143083                   -0.169398
+b_10k_All_C_2                                 -0.233035                    0.116709                   -0.127197
+mu_worst_C_2                                   0.189148                   -0.098373                    0.115175
+gamma_WI_Q1_C_2                               -0.039758                    0.030736                   -0.009814
+gamma_HH_4_OrMore_Y_C_2                       -0.130311                    0.048515                   -0.043443
+gamma_Informal_C_2                            -0.557624                    0.189714                   -0.353537
+gamma_Benefit_Subsidy_Y_C_2                    0.087325                   -0.091427                    0.051428
+delta_C_2                                      0.551154                   -0.187675                    0.345879
+b_Income_C_3                                   0.200559                   -0.155419                    0.248349
+b_HH_Member_C_3                                0.345469                   -0.239998                    0.322565
+b_Caste_C_3                                    0.164305                   -0.155106                    0.293272
+b_Elderly_DiffAble_C_3                         0.140785                   -0.151016                    0.270600
+b_NotPlanned_C_3                               0.077844                   -0.160246                    0.268290
+b_10k_All_C_3                                  0.225103                   -0.229985                    0.394419
+mu_worst_C_3                                   0.132749                   -0.118415                    0.196024
+gamma_WI_Q1_C_3                                0.080445                   -0.415484                    0.104423
+gamma_HH_4_OrMore_Y_C_3                        1.000000                   -0.464422                    0.587448
+gamma_Informal_C_3                            -0.464422                    1.000000                   -0.550749
+gamma_Benefit_Subsidy_Y_C_3                    0.587448                   -0.550749                    1.000000
+delta_C_3                                     -0.946737                    0.421781                   -0.692317
+                                              delta_C_3
+b_Income_C_1                                   0.095585
+b_HH_Member_C_1                                0.123094
+b_Caste_C_1                                    0.029139
+b_Elderly_DiffAble_C_1                         0.138488
+b_NotPlanned_C_1                               0.046678
+b_10k_All_C_1                                  0.155765
+mu_worst_C_1                                   0.027834
+b_Income_C_2                                   0.240599
+b_HH_Member_C_2                                0.250366
+b_Caste_C_2                                    0.073620
+b_Elderly_DiffAble_C_2                         0.085241
+b_NotPlanned_C_2                               0.348586
+b_10k_All_C_2                                  0.273459
+mu_worst_C_2                                  -0.203996
+gamma_WI_Q1_C_2                                0.044928
+gamma_HH_4_OrMore_Y_C_2                        0.114358
+gamma_Informal_C_2                             0.626195
+gamma_Benefit_Subsidy_Y_C_2                   -0.075216
+delta_C_2                                     -0.611595
+b_Income_C_3                                  -0.156315
+b_HH_Member_C_3                               -0.345372
+b_Caste_C_3                                   -0.108204
+b_Elderly_DiffAble_C_3                        -0.089543
+b_NotPlanned_C_3                               0.002901
+b_10k_All_C_3                                 -0.156432
+mu_worst_C_3                                  -0.094299
+gamma_WI_Q1_C_3                               -0.089066
+gamma_HH_4_OrMore_Y_C_3                       -0.946737
+gamma_Informal_C_3                             0.421781
+gamma_Benefit_Subsidy_Y_C_3                   -0.692317
+delta_C_3                                      1.000000
+
+Robust correlation matrix:
+                                           b_Income_C_1             b_HH_Member_C_1                 b_Caste_C_1
+b_Income_C_1                                   1.000000                     0.69750                   -0.206698
+b_HH_Member_C_1                                0.697501                     1.00000                   -0.238390
+b_Caste_C_1                                   -0.206698                    -0.23839                    1.000000
+b_Elderly_DiffAble_C_1                         0.640886                     0.76327                   -0.283679
+b_NotPlanned_C_1                               0.709479                     0.78823                   -0.296115
+b_10k_All_C_1                                  0.705904                     0.80501                   -0.383413
+mu_worst_C_1                                  -0.509913                    -0.38193                    0.709358
+b_Income_C_2                                   0.175988                     0.47879                   -0.200904
+b_HH_Member_C_2                                0.416220                     0.60269                   -0.260432
+b_Caste_C_2                                    0.374266                     0.59601                   -0.358669
+b_Elderly_DiffAble_C_2                         0.486022                     0.64305                   -0.320726
+b_NotPlanned_C_2                               0.360700                     0.55574                   -0.165498
+b_10k_All_C_2                                  0.397163                     0.61492                   -0.244910
+mu_worst_C_2                                   0.126976                     0.13046                   -0.245985
+gamma_WI_Q1_C_2                               -0.097832                     0.27375                   -0.222284
+gamma_HH_4_OrMore_Y_C_2                       -0.308221                    -0.13411                    0.259330
+gamma_Informal_C_2                             0.245744                     0.27212                    0.005345
+gamma_Benefit_Subsidy_Y_C_2                    0.332756                     0.41638                   -0.069955
+delta_C_2                                     -0.147717                    -0.19991                   -0.064299
+b_Income_C_3                                   0.074512                     0.11155                   -0.045291
+b_HH_Member_C_3                               -0.098541                    -0.15375                   -0.007866
+b_Caste_C_3                                    0.177769                     0.20986                   -0.050223
+b_Elderly_DiffAble_C_3                         0.172438                     0.20557                   -0.042093
+b_NotPlanned_C_3                               0.241879                     0.28336                   -0.044031
+b_10k_All_C_3                                  0.192388                     0.21562                   -0.041161
+mu_worst_C_3                                   0.132211                     0.14610                   -0.015100
+gamma_WI_Q1_C_3                                0.028496                     0.14595                   -0.119357
+gamma_HH_4_OrMore_Y_C_3                       -0.140268                    -0.22798                    0.010314
+gamma_Informal_C_3                             0.056671                     0.14911                   -0.015070
+gamma_Benefit_Subsidy_Y_C_3                   -0.005963                    -0.05195                   -0.030146
+delta_C_3                                      0.183742                     0.27305                   -0.013207
+                                 b_Elderly_DiffAble_C_1            b_NotPlanned_C_1               b_10k_All_C_1
+b_Income_C_1                                    0.64089                    0.709479                     0.70590
+b_HH_Member_C_1                                 0.76327                    0.788228                     0.80501
+b_Caste_C_1                                    -0.28368                   -0.296115                    -0.38341
+b_Elderly_DiffAble_C_1                          1.00000                    0.643428                     0.79600
+b_NotPlanned_C_1                                0.64343                    1.000000                     0.75378
+b_10k_All_C_1                                   0.79600                    0.753780                     1.00000
+mu_worst_C_1                                   -0.29439                   -0.527081                    -0.50311
+b_Income_C_2                                    0.64500                    0.231765                     0.51040
+b_HH_Member_C_2                                 0.76084                    0.397259                     0.68939
+b_Caste_C_2                                     0.68934                    0.514027                     0.65785
+b_Elderly_DiffAble_C_2                          0.70761                    0.560030                     0.72952
+b_NotPlanned_C_2                                0.71432                    0.251942                     0.61172
+b_10k_All_C_2                                   0.75710                    0.381645                     0.65436
+mu_worst_C_2                                    0.02022                    0.379957                     0.13858
+gamma_WI_Q1_C_2                                 0.32658                    0.146733                     0.24522
+gamma_HH_4_OrMore_Y_C_2                        -0.05546                   -0.426067                    -0.22720
+gamma_Informal_C_2                              0.43429                   -0.008152                     0.34210
+gamma_Benefit_Subsidy_Y_C_2                     0.34672                    0.356988                     0.44732
+delta_C_2                                      -0.35606                    0.105930                    -0.24600
+b_Income_C_3                                   -0.04852                    0.183489                     0.07867
+b_HH_Member_C_3                                -0.26544                    0.029411                    -0.16948
+b_Caste_C_3                                     0.07379                    0.216558                     0.14462
+b_Elderly_DiffAble_C_3                          0.01700                    0.251784                     0.17102
+b_NotPlanned_C_3                                0.15713                    0.244997                     0.23621
+b_10k_All_C_3                                   0.03555                    0.254439                     0.14883
+mu_worst_C_3                                    0.05145                    0.144556                     0.07742
+gamma_WI_Q1_C_3                                 0.10516                    0.128949                     0.15319
+gamma_HH_4_OrMore_Y_C_3                        -0.34135                   -0.007090                    -0.30128
+gamma_Informal_C_3                              0.25157                   -0.003751                     0.22726
+gamma_Benefit_Subsidy_Y_C_3                    -0.21444                    0.129955                    -0.11938
+delta_C_3                                       0.37231                    0.040481                     0.33371
+                                           mu_worst_C_1                b_Income_C_2             b_HH_Member_C_2
+b_Income_C_1                                   -0.50991                    0.175988                     0.41622
+b_HH_Member_C_1                                -0.38193                    0.478791                     0.60269
+b_Caste_C_1                                     0.70936                   -0.200904                    -0.26043
+b_Elderly_DiffAble_C_1                         -0.29439                    0.645000                     0.76084
+b_NotPlanned_C_1                               -0.52708                    0.231765                     0.39726
+b_10k_All_C_1                                  -0.50311                    0.510401                     0.68939
+mu_worst_C_1                                    1.00000                    0.033783                    -0.14184
+b_Income_C_2                                    0.03378                    1.000000                     0.88514
+b_HH_Member_C_2                                -0.14184                    0.885142                     1.00000
+b_Caste_C_2                                    -0.24302                    0.761022                     0.85832
+b_Elderly_DiffAble_C_2                         -0.32415                    0.669907                     0.84140
+b_NotPlanned_C_2                               -0.04339                    0.883516                     0.92259
+b_10k_All_C_2                                  -0.12956                    0.905212                     0.94398
+mu_worst_C_2                                   -0.35980                   -0.189261                    -0.06004
+gamma_WI_Q1_C_2                                 0.07207                    0.631816                     0.46570
+gamma_HH_4_OrMore_Y_C_2                         0.48750                    0.313281                     0.08039
+gamma_Informal_C_2                              0.09199                    0.569834                     0.64024
+gamma_Benefit_Subsidy_Y_C_2                    -0.24581                    0.144498                     0.25789
+delta_C_2                                      -0.18377                   -0.555413                    -0.57512
+b_Income_C_3                                   -0.16507                   -0.139644                    -0.10882
+b_HH_Member_C_3                                -0.10936                   -0.383745                    -0.38851
+b_Caste_C_3                                    -0.15344                    0.011257                     0.03767
+b_Elderly_DiffAble_C_3                         -0.19411                   -0.062436                    -0.02555
+b_NotPlanned_C_3                               -0.15448                    0.119334                     0.16396
+b_10k_All_C_3                                  -0.19436                   -0.052055                    -0.01630
+mu_worst_C_3                                   -0.09517                    0.008801                     0.02581
+gamma_WI_Q1_C_3                                -0.10556                    0.082998                     0.13008
+gamma_HH_4_OrMore_Y_C_3                        -0.10950                   -0.511230                    -0.52932
+gamma_Informal_C_3                              0.10740                    0.389053                     0.32993
+gamma_Benefit_Subsidy_Y_C_3                    -0.19035                   -0.367243                    -0.37680
+delta_C_3                                       0.09038                    0.533429                     0.56546
+                                            b_Caste_C_2      b_Elderly_DiffAble_C_2            b_NotPlanned_C_2
+b_Income_C_1                                   0.374266                    0.486022                     0.36070
+b_HH_Member_C_1                                0.596010                    0.643046                     0.55574
+b_Caste_C_1                                   -0.358669                   -0.320726                    -0.16550
+b_Elderly_DiffAble_C_1                         0.689342                    0.707614                     0.71432
+b_NotPlanned_C_1                               0.514027                    0.560030                     0.25194
+b_10k_All_C_1                                  0.657847                    0.729516                     0.61172
+mu_worst_C_1                                  -0.243022                   -0.324148                    -0.04339
+b_Income_C_2                                   0.761022                    0.669907                     0.88352
+b_HH_Member_C_2                                0.858321                    0.841402                     0.92259
+b_Caste_C_2                                    1.000000                    0.904921                     0.67853
+b_Elderly_DiffAble_C_2                         0.904921                    1.000000                     0.68346
+b_NotPlanned_C_2                               0.678530                    0.683464                     1.00000
+b_10k_All_C_2                                  0.826722                    0.785036                     0.92407
+mu_worst_C_2                                   0.407263                    0.345855                    -0.33166
+gamma_WI_Q1_C_2                                0.516508                    0.365631                     0.44495
+gamma_HH_4_OrMore_Y_C_2                       -0.153742                   -0.232912                     0.29670
+gamma_Informal_C_2                             0.261362                    0.283551                     0.76149
+gamma_Benefit_Subsidy_Y_C_2                    0.268713                    0.424737                     0.26646
+delta_C_2                                     -0.180575                   -0.188665                    -0.73080
+b_Income_C_3                                  -0.046811                   -0.043521                    -0.11667
+b_HH_Member_C_3                               -0.165551                   -0.144726                    -0.45219
+b_Caste_C_3                                    0.012403                   -0.001451                     0.03556
+b_Elderly_DiffAble_C_3                        -0.015521                   -0.010430                    -0.02322
+b_NotPlanned_C_3                               0.068823                    0.068407                     0.18262
+b_10k_All_C_3                                 -0.016238                   -0.018878                    -0.02099
+mu_worst_C_3                                  -0.004009                   -0.018735                     0.01728
+gamma_WI_Q1_C_3                                0.145432                    0.206191                     0.14409
+gamma_HH_4_OrMore_Y_C_3                       -0.239057                   -0.233954                    -0.62433
+gamma_Informal_C_3                             0.192491                    0.089452                     0.40449
+gamma_Benefit_Subsidy_Y_C_3                   -0.160827                   -0.163368                    -0.44430
+delta_C_3                                      0.257881                    0.259049                     0.66344
+                                          b_10k_All_C_2                mu_worst_C_2             gamma_WI_Q1_C_2
+b_Income_C_1                                    0.39716                    0.126976                   -0.097832
+b_HH_Member_C_1                                 0.61492                    0.130464                    0.273752
+b_Caste_C_1                                    -0.24491                   -0.245985                   -0.222284
+b_Elderly_DiffAble_C_1                          0.75710                    0.020225                    0.326577
+b_NotPlanned_C_1                                0.38164                    0.379957                    0.146733
+b_10k_All_C_1                                   0.65436                    0.138584                    0.245216
+mu_worst_C_1                                   -0.12956                   -0.359804                    0.072071
+b_Income_C_2                                    0.90521                   -0.189261                    0.631816
+b_HH_Member_C_2                                 0.94398                   -0.060040                    0.465702
+b_Caste_C_2                                     0.82672                    0.407263                    0.516508
+b_Elderly_DiffAble_C_2                          0.78504                    0.345855                    0.365631
+b_NotPlanned_C_2                                0.92407                   -0.331656                    0.444945
+b_10k_All_C_2                                   1.00000                   -0.079669                    0.495186
+mu_worst_C_2                                   -0.07967                    1.000000                    0.007759
+gamma_WI_Q1_C_2                                 0.49519                    0.007759                    1.000000
+gamma_HH_4_OrMore_Y_C_2                         0.13017                   -0.617823                    0.279864
+gamma_Informal_C_2                              0.62377                   -0.610599                    0.159229
+gamma_Benefit_Subsidy_Y_C_2                     0.25493                    0.111479                    0.227586
+delta_C_2                                      -0.56812                    0.687832                   -0.204414
+b_Income_C_3                                   -0.11289                    0.125595                   -0.024526
+b_HH_Member_C_3                                -0.39136                    0.379400                   -0.140400
+b_Caste_C_3                                     0.03966                   -0.021604                    0.027397
+b_Elderly_DiffAble_C_3                         -0.02717                    0.039556                    0.001866
+b_NotPlanned_C_3                                0.15776                   -0.134627                    0.065301
+b_10k_All_C_3                                  -0.02085                    0.023498                 -3.1409e-04
+mu_worst_C_3                                    0.02572                   -0.040983                    0.012985
+gamma_WI_Q1_C_3                                 0.07729                    0.084430                    0.125403
+gamma_HH_4_OrMore_Y_C_3                        -0.52752                    0.488016                   -0.199246
+gamma_Informal_C_3                              0.38646                   -0.271962                    0.203538
+gamma_Benefit_Subsidy_Y_C_3                    -0.37222                    0.375236                   -0.124102
+delta_C_3                                       0.56170                   -0.509773                    0.204967
+                                gamma_HH_4_OrMore_Y_C_2          gamma_Informal_C_2 gamma_Benefit_Subsidy_Y_C_2
+b_Income_C_1                                   -0.30822                    0.245744                    0.332756
+b_HH_Member_C_1                                -0.13411                    0.272122                    0.416380
+b_Caste_C_1                                     0.25933                    0.005345                   -0.069955
+b_Elderly_DiffAble_C_1                         -0.05546                    0.434290                    0.346724
+b_NotPlanned_C_1                               -0.42607                   -0.008152                    0.356988
+b_10k_All_C_1                                  -0.22720                    0.342102                    0.447318
+mu_worst_C_1                                    0.48750                    0.091993                   -0.245805
+b_Income_C_2                                    0.31328                    0.569834                    0.144498
+b_HH_Member_C_2                                 0.08039                    0.640239                    0.257888
+b_Caste_C_2                                    -0.15374                    0.261362                    0.268713
+b_Elderly_DiffAble_C_2                         -0.23291                    0.283551                    0.424737
+b_NotPlanned_C_2                                0.29670                    0.761489                    0.266465
+b_10k_All_C_2                                   0.13017                    0.623765                    0.254931
+mu_worst_C_2                                   -0.61782                   -0.610599                    0.111479
+gamma_WI_Q1_C_2                                 0.27986                    0.159229                    0.227586
+gamma_HH_4_OrMore_Y_C_2                         1.00000                    0.352981                   -0.114345
+gamma_Informal_C_2                              0.35298                    1.000000                   -0.044722
+gamma_Benefit_Subsidy_Y_C_2                    -0.11434                   -0.044722                    1.000000
+delta_C_2                                      -0.50448                   -0.982741                    0.045366
+b_Income_C_3                                   -0.12021                   -0.197395                    0.102008
+b_HH_Member_C_3                                -0.24949                   -0.616244                    0.103281
+b_Caste_C_3                                    -0.03466                    0.048753                    0.029136
+b_Elderly_DiffAble_C_3                         -0.07947                   -0.054418                    0.106876
+b_NotPlanned_C_3                                0.03228                    0.226764                    0.057023
+b_10k_All_C_3                                  -0.07532                   -0.038057                    0.072989
+mu_worst_C_3                                   -0.01620                    0.061138                   -0.007635
+gamma_WI_Q1_C_3                                -0.03771                   -0.074766                    0.250661
+gamma_HH_4_OrMore_Y_C_3                        -0.34072                   -0.805335                    0.062332
+gamma_Informal_C_3                              0.24507                    0.471056                   -0.102714
+gamma_Benefit_Subsidy_Y_C_3                    -0.25020                   -0.598692                    0.071595
+delta_C_3                                       0.33587                    0.846649                   -0.038726
+                                              delta_C_2                b_Income_C_3             b_HH_Member_C_3
+b_Income_C_1                                   -0.14772                     0.07451                   -0.098541
+b_HH_Member_C_1                                -0.19991                     0.11155                   -0.153748
+b_Caste_C_1                                    -0.06430                    -0.04529                   -0.007866
+b_Elderly_DiffAble_C_1                         -0.35606                    -0.04852                   -0.265440
+b_NotPlanned_C_1                                0.10593                     0.18349                    0.029411
+b_10k_All_C_1                                  -0.24600                     0.07867                   -0.169484
+mu_worst_C_1                                   -0.18377                    -0.16507                   -0.109363
+b_Income_C_2                                   -0.55541                    -0.13964                   -0.383745
+b_HH_Member_C_2                                -0.57512                    -0.10882                   -0.388505
+b_Caste_C_2                                    -0.18058                    -0.04681                   -0.165551
+b_Elderly_DiffAble_C_2                         -0.18867                    -0.04352                   -0.144726
+b_NotPlanned_C_2                               -0.73080                    -0.11667                   -0.452194
+b_10k_All_C_2                                  -0.56812                    -0.11289                   -0.391358
+mu_worst_C_2                                    0.68783                     0.12560                    0.379400
+gamma_WI_Q1_C_2                                -0.20441                    -0.02453                   -0.140400
+gamma_HH_4_OrMore_Y_C_2                        -0.50448                    -0.12021                   -0.249487
+gamma_Informal_C_2                             -0.98274                    -0.19740                   -0.616244
+gamma_Benefit_Subsidy_Y_C_2                     0.04537                     0.10201                    0.103281
+delta_C_2                                       1.00000                     0.20391                    0.613003
+b_Income_C_3                                    0.20391                     1.00000                    0.501437
+b_HH_Member_C_3                                 0.61300                     0.50144                    1.000000
+b_Caste_C_3                                    -0.03862                     0.53327                    0.008179
+b_Elderly_DiffAble_C_3                          0.06432                     0.80024                    0.443435
+b_NotPlanned_C_3                               -0.21425                     0.56829                    0.048629
+b_10k_All_C_3                                   0.04865                     0.67389                    0.252686
+mu_worst_C_3                                   -0.05464                     0.35085                   -0.138725
+gamma_WI_Q1_C_3                                 0.08253                     0.33122                    0.286718
+gamma_HH_4_OrMore_Y_C_3                         0.80188                     0.31595                    0.626236
+gamma_Informal_C_3                             -0.47330                    -0.25951                   -0.457817
+gamma_Benefit_Subsidy_Y_C_3                     0.59788                     0.44097                    0.546172
+delta_C_3                                      -0.83926                    -0.27229                   -0.646076
+                                            b_Caste_C_3      b_Elderly_DiffAble_C_3            b_NotPlanned_C_3
+b_Income_C_1                                   0.177769                    0.172438                     0.24188
+b_HH_Member_C_1                                0.209860                    0.205570                     0.28336
+b_Caste_C_1                                   -0.050223                   -0.042093                    -0.04403
+b_Elderly_DiffAble_C_1                         0.073788                    0.016996                     0.15713
+b_NotPlanned_C_1                               0.216558                    0.251784                     0.24500
+b_10k_All_C_1                                  0.144617                    0.171020                     0.23621
+mu_worst_C_1                                  -0.153436                   -0.194109                    -0.15448
+b_Income_C_2                                   0.011257                   -0.062436                     0.11933
+b_HH_Member_C_2                                0.037666                   -0.025551                     0.16396
+b_Caste_C_2                                    0.012403                   -0.015521                     0.06882
+b_Elderly_DiffAble_C_2                        -0.001451                   -0.010430                     0.06841
+b_NotPlanned_C_2                               0.035559                   -0.023218                     0.18262
+b_10k_All_C_2                                  0.039661                   -0.027174                     0.15776
+mu_worst_C_2                                  -0.021604                    0.039556                    -0.13463
+gamma_WI_Q1_C_2                                0.027397                    0.001866                     0.06530
+gamma_HH_4_OrMore_Y_C_2                       -0.034656                   -0.079472                     0.03228
+gamma_Informal_C_2                             0.048753                   -0.054418                     0.22676
+gamma_Benefit_Subsidy_Y_C_2                    0.029136                    0.106876                     0.05702
+delta_C_2                                     -0.038616                    0.064317                    -0.21425
+b_Income_C_3                                   0.533275                    0.800240                     0.56829
+b_HH_Member_C_3                                0.008179                    0.443435                     0.04863
+b_Caste_C_3                                    1.000000                    0.600021                     0.90308
+b_Elderly_DiffAble_C_3                         0.600021                    1.000000                     0.72535
+b_NotPlanned_C_3                               0.903079                    0.725354                     1.00000
+b_10k_All_C_3                                  0.862734                    0.805258                     0.89627
+mu_worst_C_3                                   0.931588                    0.395719                     0.80966
+gamma_WI_Q1_C_3                               -0.056860                    0.185476                    -0.02486
+gamma_HH_4_OrMore_Y_C_3                        0.091610                    0.145127                    -0.09031
+gamma_Informal_C_3                            -0.120463                   -0.168386                    -0.06961
+gamma_Benefit_Subsidy_Y_C_3                    0.315865                    0.357945                     0.20692
+delta_C_3                                     -0.025095                   -0.082796                     0.16923
+                                          b_10k_All_C_3                mu_worst_C_3             gamma_WI_Q1_C_3
+b_Income_C_1                                    0.19239                    0.132211                     0.02850
+b_HH_Member_C_1                                 0.21562                    0.146096                     0.14595
+b_Caste_C_1                                    -0.04116                   -0.015100                    -0.11936
+b_Elderly_DiffAble_C_1                          0.03555                    0.051448                     0.10516
+b_NotPlanned_C_1                                0.25444                    0.144556                     0.12895
+b_10k_All_C_1                                   0.14883                    0.077421                     0.15319
+mu_worst_C_1                                   -0.19436                   -0.095172                    -0.10556
+b_Income_C_2                                   -0.05205                    0.008801                     0.08300
+b_HH_Member_C_2                                -0.01630                    0.025810                     0.13008
+b_Caste_C_2                                    -0.01624                   -0.004009                     0.14543
+b_Elderly_DiffAble_C_2                         -0.01888                   -0.018735                     0.20619
+b_NotPlanned_C_2                               -0.02099                    0.017284                     0.14409
+b_10k_All_C_2                                  -0.02085                    0.025718                     0.07729
+mu_worst_C_2                                    0.02350                   -0.040983                     0.08443
+gamma_WI_Q1_C_2                             -3.1409e-04                    0.012985                     0.12540
+gamma_HH_4_OrMore_Y_C_2                        -0.07532                   -0.016202                    -0.03771
+gamma_Informal_C_2                             -0.03806                    0.061138                    -0.07477
+gamma_Benefit_Subsidy_Y_C_2                     0.07299                   -0.007635                     0.25066
+delta_C_2                                       0.04865                   -0.054644                     0.08253
+b_Income_C_3                                    0.67389                    0.350846                     0.33122
+b_HH_Member_C_3                                 0.25269                   -0.138725                     0.28672
+b_Caste_C_3                                     0.86273                    0.931588                    -0.05686
+b_Elderly_DiffAble_C_3                          0.80526                    0.395719                     0.18548
+b_NotPlanned_C_3                                0.89627                    0.809664                    -0.02486
+b_10k_All_C_3                                   1.00000                    0.729120                     0.07551
+mu_worst_C_3                                    0.72912                    1.000000                    -0.17561
+gamma_WI_Q1_C_3                                 0.07551                   -0.175612                     1.00000
+gamma_HH_4_OrMore_Y_C_3                         0.18236                    0.072461                     0.13153
+gamma_Informal_C_3                             -0.21341                   -0.106111                    -0.39093
+gamma_Benefit_Subsidy_Y_C_3                     0.42745                    0.220640                     0.18871
+delta_C_3                                      -0.11345                   -0.007287                    -0.13528
+                                gamma_HH_4_OrMore_Y_C_3          gamma_Informal_C_3 gamma_Benefit_Subsidy_Y_C_3
+b_Income_C_1                                  -0.140268                    0.056671                   -0.005963
+b_HH_Member_C_1                               -0.227979                    0.149106                   -0.051951
+b_Caste_C_1                                    0.010314                   -0.015070                   -0.030146
+b_Elderly_DiffAble_C_1                        -0.341350                    0.251568                   -0.214440
+b_NotPlanned_C_1                              -0.007090                   -0.003751                    0.129955
+b_10k_All_C_1                                 -0.301276                    0.227262                   -0.119377
+mu_worst_C_1                                  -0.109504                    0.107399                   -0.190346
+b_Income_C_2                                  -0.511230                    0.389053                   -0.367243
+b_HH_Member_C_2                               -0.529320                    0.329932                   -0.376803
+b_Caste_C_2                                   -0.239057                    0.192491                   -0.160827
+b_Elderly_DiffAble_C_2                        -0.233954                    0.089452                   -0.163368
+b_NotPlanned_C_2                              -0.624330                    0.404493                   -0.444296
+b_10k_All_C_2                                 -0.527520                    0.386457                   -0.372219
+mu_worst_C_2                                   0.488016                   -0.271962                    0.375236
+gamma_WI_Q1_C_2                               -0.199246                    0.203538                   -0.124102
+gamma_HH_4_OrMore_Y_C_2                       -0.340720                    0.245075                   -0.250198
+gamma_Informal_C_2                            -0.805335                    0.471056                   -0.598692
+gamma_Benefit_Subsidy_Y_C_2                    0.062332                   -0.102714                    0.071595
+delta_C_2                                      0.801885                   -0.473296                    0.597881
+b_Income_C_3                                   0.315953                   -0.259512                    0.440969
+b_HH_Member_C_3                                0.626236                   -0.457817                    0.546172
+b_Caste_C_3                                    0.091610                   -0.120463                    0.315865
+b_Elderly_DiffAble_C_3                         0.145127                   -0.168386                    0.357945
+b_NotPlanned_C_3                              -0.090315                   -0.069613                    0.206918
+b_10k_All_C_3                                  0.182358                   -0.213413                    0.427449
+mu_worst_C_3                                   0.072461                   -0.106111                    0.220640
+gamma_WI_Q1_C_3                                0.131529                   -0.390927                    0.188708
+gamma_HH_4_OrMore_Y_C_3                        1.000000                   -0.636363                    0.721228
+gamma_Informal_C_3                            -0.636363                    1.000000                   -0.658428
+gamma_Benefit_Subsidy_Y_C_3                    0.721228                   -0.658428                    1.000000
+delta_C_3                                     -0.977543                    0.604273                   -0.759636
+                                              delta_C_3
+b_Income_C_1                                   0.183742
+b_HH_Member_C_1                                0.273052
+b_Caste_C_1                                   -0.013207
+b_Elderly_DiffAble_C_1                         0.372310
+b_NotPlanned_C_1                               0.040481
+b_10k_All_C_1                                  0.333713
+mu_worst_C_1                                   0.090377
+b_Income_C_2                                   0.533429
+b_HH_Member_C_2                                0.565463
+b_Caste_C_2                                    0.257881
+b_Elderly_DiffAble_C_2                         0.259049
+b_NotPlanned_C_2                               0.663437
+b_10k_All_C_2                                  0.561699
+mu_worst_C_2                                  -0.509773
+gamma_WI_Q1_C_2                                0.204967
+gamma_HH_4_OrMore_Y_C_2                        0.335874
+gamma_Informal_C_2                             0.846649
+gamma_Benefit_Subsidy_Y_C_2                   -0.038726
+delta_C_2                                     -0.839260
+b_Income_C_3                                  -0.272286
+b_HH_Member_C_3                               -0.646076
+b_Caste_C_3                                   -0.025095
+b_Elderly_DiffAble_C_3                        -0.082796
+b_NotPlanned_C_3                               0.169234
+b_10k_All_C_3                                 -0.113452
+mu_worst_C_3                                  -0.007287
+gamma_WI_Q1_C_3                               -0.135277
+gamma_HH_4_OrMore_Y_C_3                       -0.977543
+gamma_Informal_C_3                             0.604273
+gamma_Benefit_Subsidy_Y_C_3                   -0.759636
+delta_C_3                                      1.000000
+
+ 20 most extreme outliers in terms of lowest average per choice prediction:
+ row Avg prob per choice
+ 398        5.477154e-10
+ 317        5.786356e-10
+ 337        3.589585e-09
+ 318        7.078308e-09
+ 321        1.182002e-08
+ 319        1.303676e-08
+ 320        2.576269e-08
+ 313        1.586564e-07
+ 314        1.644970e-07
+ 334        2.024824e-07
+ 335        8.010202e-07
+ 330        8.019458e-07
+ 329        1.026640e-06
+ 392        1.106666e-06
+ 316        1.135825e-06
+ 395        1.231431e-06
+ 324        2.219845e-06
+ 326        2.622463e-06
+ 406        3.517374e-06
+ 407        4.460197e-06
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                      
+modelName              "SubsidyEligibility_04_LCM"
+modelDescr             "SubsidyEligibility_04_LCM"
+indivID                "ID"                       
+weights                "Weights"                  
+analyticGrad           "FALSE"                    
+workInLogs             "FALSE"                    
+outputDirectory        "../Output_Apollo/"        
+debug                  "FALSE"                    
+nCores                 "1"                        
+seed                   "13"                       
+mixing                 "FALSE"                    
+HB                     "FALSE"                    
+noValidation           "FALSE"                    
+noDiagnostics          "FALSE"                    
+calculateLLC           "TRUE"                     
+analyticHessian        "FALSE"                    
+dropLoopExpansion      "FALSE"                    
+dropRedefCheck         "FALSE"                    
+memorySaver            "FALSE"                    
+panelData              "FALSE"                    
+analyticGrad_manualSet "TRUE"                     
+overridePanel          "FALSE"                    
+preventOverridePanel   "FALSE"                    
+noModification         "FALSE"                    
+
+Hessian routines attempted
+--------------------------
+numerical second derivative of LL (using numDeriv)
+
+
+apollo_lcPars
+---------------
+function(apollo_beta, apollo_inputs){
+  lcpars = list()
+  
+  lcpars[["b_Income"]]           = list(b_Income_C_1          , b_Income_C_2          , b_Income_C_3)
+  lcpars[["b_HH_Member"]]        = list(b_HH_Member_C_1       , b_HH_Member_C_2       , b_HH_Member_C_3)
+  lcpars[["b_Caste"]]            = list(b_Caste_C_1           , b_Caste_C_2           , b_Caste_C_3)
+  lcpars[["b_Elderly_DiffAble"]] = list(b_Elderly_DiffAble_C_1, b_Elderly_DiffAble_C_2, b_Elderly_DiffAble_C_3)
+  lcpars[["b_NotPlanned"]]       = list(b_NotPlanned_C_1      , b_NotPlanned_C_2      , b_NotPlanned_C_3)
+  lcpars[["b_10k_All"]]          = list(b_10k_All_C_1         , b_10k_All_C_2         , b_10k_All_C_3)
+  lcpars[["b_CurrentPolicy"]]    = list(b_CurrentPolicy_C_1   , b_CurrentPolicy_C_2   , b_CurrentPolicy_C_3)
+  lcpars[["mu_worst"]]           = list(mu_worst_C_1          , mu_worst_C_2          , mu_worst_C_3)
+  
+  V=list()
+  V[["Class_1"]] = delta_C_1 + 
+    
+                    # # # ----- Version: Fairness ----- ----- ----- ----- #
+                    # # gamma_Ver_Fair_C_1            *(BWS_1_Version == 1) +
+                    # # 
+                    # # # ----- SQ: Position First ----- ----- ----- ----- #
+                    # # gamma_SQ_C_1                 *(BWS_1_SQ ==1) +
+
+                    # # ----- Wealth indicators ----- ----- ----- ----- #
+                    gamma_WI_Q1_C_1               *(FirstQuin== 1) +
+                    # 
+                    # # ----- Household size --------- ----- ----- ----- #    
+                    gamma_HH_4_OrMore_Y_C_1       *(HH_4_OrMore_Y== 1) +
+                    # 
+                    # # ----- Marginalized caste ----- ----- -----  ----- #  
+                    # gamma_Caste_Y_C_1             *(Marginalized_Caste_Y== 1) +
+                    # # gamma_Caste_Miss_C_1          *(Marginalized_Caste_Miss== 1) +
+                    # 
+                    # # ----- Elderly or differetnly abled  ----- ----- ----- #  
+                    # gamma_Elderly_Y_C_1           *(Elderly_Y== 1) +
+                    # 
+                    # # ----- Informal Settlement ----- ----- #
+                    gamma_Informal_C_1            *(Informal_Settlement==1)+
+
+                    # # ----- Benefiting from the subsidy ----- ----- ----- #
+                    gamma_Benefit_Subsidy_Y_C_1   *(Benefit_Subsidy_Y== 1) #+
+                    # # gamma_Benefit_Subsidy_DK_C_1  *(Benefit_Subsidy_DK== 1) +
+
+  V[["Class_2"]] = delta_C_2 + 
+    
+                    # # # ----- Version: Fairness ----- ----- ----- ----- #
+                    # # gamma_Ver_Fair_C_2            *(BWS_1_Version == 1) +
+                    # # 
+                    # # # ----- SQ: Position First ----- ----- ----- ----- #
+                    # # gamma_SQ_C_2                 *(BWS_1_SQ ==1) +
+
+                    # # ----- Wealth indicators ----- ----- ----- ----- #
+                    gamma_WI_Q1_C_2               *(FirstQuin== 1) +
+                    # 
+                    # # ----- Household size --------- ----- ----- ----- #    
+                    gamma_HH_4_OrMore_Y_C_2       *(HH_4_OrMore_Y== 1) +
+                    # 
+                    # # ----- Marginalized caste ----- ----- -----  ----- #  
+                    # gamma_Caste_Y_C_2             *(Marginalized_Caste_Y== 1) +
+                    # # gamma_Caste_Miss_C_2          *(Marginalized_Caste_Miss== 1) +
+                    # 
+                    # # ----- Elderly or differetnly abled  ----- ----- ----- #  
+                    # gamma_Elderly_Y_C_2           *(Elderly_Y== 1) +
+                    # 
+                    # # ----- Informal Settlement ----- ----- #
+                    gamma_Informal_C_2            *(Informal_Settlement==1)+
+
+                    # # ----- Benefiting from the subsidy ----- ----- ----- #
+                    gamma_Benefit_Subsidy_Y_C_2   *(Benefit_Subsidy_Y== 1) #+
+                    # # gamma_Benefit_Subsidy_DK_C_2  *(Benefit_Subsidy_DK== 1) +
+  
+  
+  V[["Class_3"]] = delta_C_3 + 
+    
+                  #   # # ----- Version: Fairness ----- ----- ----- ----- #
+                  #   # gamma_Ver_Fair_C_3            *(BWS_1_Version == 1) +
+                  #   # 
+                  #   # # ----- SQ: Position First ----- ----- ----- ----- #
+                  #   # gamma_SQ_C_3                 *(BWS_1_SQ ==1) +
+
+                  #   # ----- Wealth indicators ----- ----- ----- ----- #
+                    gamma_WI_Q1_C_3               *(FirstQuin== 1) +
+                  #   
+                  #   # ----- Household size --------- ----- ----- ----- #    
+                    gamma_HH_4_OrMore_Y_C_3       *(HH_4_OrMore_Y== 1) +
+                  #   
+                  #   # ----- Marginalized caste ----- ----- -----  ----- #  
+                    # gamma_Caste_Y_C_3             *(Marginalized_Caste_Y== 1) +
+                  #   # gamma_Caste_Miss_C_3          *(Marginalized_Caste_Miss== 1) +
+                  #   
+                  #   # ----- Elderly or differetnly abled  ----- ----- ----- #  
+                    # gamma_Elderly_Y_C_3           *(Elderly_Y== 1) +
+                  #   
+                  #   # ----- Informal Settlement ----- ----- #
+                    gamma_Informal_C_3            *(Informal_Settlement==1)+
+
+                  #   # ----- Benefiting from the subsidy ----- ----- ----- #
+                    gamma_Benefit_Subsidy_Y_C_3   *(Benefit_Subsidy_Y== 1) #+
+                  # # gamma_Benefit_Subsidy_DK_C_3  *(Benefit_Subsidy_DK== 1) +
+
+ 
+  classAlloc_settings = list(
+    classes      = c(Class_1=1, Class_2=2, Class_3=3), 
+    utilities    = V
+  )
+  
+  lcpars[["pi_values"]] = apollo_classAlloc(classAlloc_settings)
+  
+  return(lcpars)
+}
+<bytecode: 0x0000022b45aee2c8>
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+
+  ### Create list of probabilities P
+  P = list()
+  
+  #Loop over classes
+  
+  for(s in 1:3){
+    
+  P_LCM = list() # So that I can combine the BWBW for each class
+  
+  ### List of utilities:
+  V = list()
+  V[["Income"]]           = b_Income[[s]]
+  
+  V[["HH_Members"]]       = b_HH_Member[[s]]
+  
+  V[["Caste_Based"]]      = b_Caste[[s]]
+  
+  V[["Elderly_DiffAble"]] = b_Elderly_DiffAble[[s]]
+  
+  V[["Not_in_Planned"]]   = b_NotPlanned[[s]]
+  
+  V[["Universal"]]        = b_10k_All[[s]]
+  
+  V[["Keep_Current"]]     = b_CurrentPolicy[[s]]  
+
+  ### FIRST BEST: Compute probabilities for "best" choice using MNL model
+  mnl_settings_best = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income             =(Inc==1), 
+                         HH_Members         =(HH==1), 
+                         Caste_Based        =(Caste==1), 
+                         Elderly_DiffAble   =(ElderDiffAble==1), 
+                         Not_in_Planned     =(NotPlanned==1),
+                         Universal          =(First10k==1), 
+                         Keep_Current       =(CurrentPolicy==1) ),
+    
+    choiceVar     = BWS_1_F_Most,
+    utilities     = V,
+    componentName = paste0("Class_",s, "_best")
+  )
+  P_LCM[["choice_best"]] = apollo_mnl(mnl_settings_best, functionality)
+  
+  
+  ### FIRST WORST: Compute probabilities for "worst" choice using MNL model
+  mnl_settings_worst = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income            =(Inc==1           & BWS_1_F_Most!=1), 
+                         HH_Members        =(HH==1            & BWS_1_F_Most!=2),
+                         Caste_Based       =(Caste==1         & BWS_1_F_Most!=3),                                            
+                         Elderly_DiffAble  =(ElderDiffAble==1 & BWS_1_F_Most!=4),                         
+                         Not_in_Planned    =(NotPlanned==1    & BWS_1_F_Most!=5),
+                         Universal         =(First10k==1      & BWS_1_F_Most!=6),                                             
+                         Keep_Current      =(CurrentPolicy==1 & BWS_1_F_Most!=7)),                        
+    
+    choiceVar     = BWS_1_F_Least, 
+    utilities     = list(Income            = -mu_worst[[s]]*V[["Income"]],
+                         HH_Members        = -mu_worst[[s]]*V[["HH_Members"]],
+                         Caste_Based       = -mu_worst[[s]]*V[["Caste_Based"]],
+                         Elderly_DiffAble  = -mu_worst[[s]]*V[["Elderly_DiffAble"]],
+                         Not_in_Planned    = -mu_worst[[s]]*V[["Not_in_Planned"]],
+                         Universal         = -mu_worst[[s]]*V[["Universal"]],
+                         Keep_Current      = -mu_worst[[s]]*V[["Keep_Current"]]),
+    componentName = paste0("Class_",s, "_worst") 
+  )
+  P_LCM[["choice_worst"]] = apollo_mnl(mnl_settings_worst, functionality)
+  
+  
+  ### SECOND BEST: Compute probabilities for "Second Best" choice using MNL model
+  mnl_settings_best_2 = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income            =(Inc==1           & BWS_1_F_Most!=1 & BWS_1_F_Least!=1), 
+                         HH_Members        =(HH==1            & BWS_1_F_Most!=2 & BWS_1_F_Least!=2),
+                         Caste_Based       =(Caste==1         & BWS_1_F_Most!=3 & BWS_1_F_Least!=3),                                            
+                         Elderly_DiffAble  =(ElderDiffAble==1 & BWS_1_F_Most!=4 & BWS_1_F_Least!=4),                         
+                         Not_in_Planned    =(NotPlanned==1    & BWS_1_F_Most!=5 & BWS_1_F_Least!=5),
+                         Universal         =(First10k==1      & BWS_1_F_Most!=6 & BWS_1_F_Least!=6),                                             
+                         Keep_Current      =(CurrentPolicy==1 & BWS_1_F_Most!=7 & BWS_1_F_Least!=7)),  
+    
+    choiceVar     = BWS_1_S_Most, 
+    utilities     = V,
+    componentName = paste0("Class_",s, "_second_best")
+  )
+  P_LCM[["choice_best_2"]] = apollo_mnl(mnl_settings_best_2, functionality)
+  
+  
+  ### SECOND WORST: Compute probabilities for "Second Worst" choice using MNL model
+  mnl_settings_worst_2 = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income            =(Inc==1           & BWS_1_F_Most!=1 & BWS_1_F_Least!=1 & BWS_1_S_Most!=1), 
+                         HH_Members        =(HH==1            & BWS_1_F_Most!=2 & BWS_1_F_Least!=2 & BWS_1_S_Most!=2),
+                         Caste_Based       =(Caste==1         & BWS_1_F_Most!=3 & BWS_1_F_Least!=3 & BWS_1_S_Most!=3),                                            
+                         Elderly_DiffAble  =(ElderDiffAble==1 & BWS_1_F_Most!=4 & BWS_1_F_Least!=4 & BWS_1_S_Most!=4),                         
+                         Not_in_Planned    =(NotPlanned==1    & BWS_1_F_Most!=5 & BWS_1_F_Least!=5 & BWS_1_S_Most!=5),
+                         Universal         =(First10k==1      & BWS_1_F_Most!=6 & BWS_1_F_Least!=6 & BWS_1_S_Most!=6),                                             
+                         Keep_Current      =(CurrentPolicy==1 & BWS_1_F_Most!=7 & BWS_1_F_Least!=7 & BWS_1_S_Most!=7)),  
+    
+    choiceVar     = BWS_1_S_Least, 
+    utilities     = list(Income            = -mu_worst[[s]]*V[["Income"]],
+                         HH_Members        = -mu_worst[[s]]*V[["HH_Members"]],
+                         Caste_Based       = -mu_worst[[s]]*V[["Caste_Based"]],
+                         Elderly_DiffAble  = -mu_worst[[s]]*V[["Elderly_DiffAble"]],
+                         Not_in_Planned    = -mu_worst[[s]]*V[["Not_in_Planned"]],
+                         Universal         = -mu_worst[[s]]*V[["Universal"]],
+                         Keep_Current      = -mu_worst[[s]]*V[["Keep_Current"]]),
+    componentName = paste0("Class_",s, "_second worst")
+  )
+  P_LCM[["choice_worst_2"]] = apollo_mnl(mnl_settings_worst_2, functionality)
+
+    
+  ### Combined model
+  P[[paste0("Class_",s)]] = apollo_combineModels(P_LCM, apollo_inputs, functionality, asList = FALSE)
+  
+  }
+  
+  ### Compute latent class model probabilities
+  lc_settings   = list(inClassProb = P, classProb=pi_values)
+  P[["model"]] = apollo_lc(lc_settings, apollo_inputs, functionality)
+  
+    # ### Including individual weights
+  P = apollo_weighting(P, apollo_inputs, functionality)
+  
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  return(P)
+}

@@ -1,0 +1,714 @@
+This is the dynamic seed: 613192343  
+Use this for replication of randomization process
+Working in logs is only applicable with panel data; workInLogs set to
+  FALSE in apollo_control.
+All checks on apollo_control completed.
+WARNING: Your database contains some entries that are NA. This may well
+  be intentional, but be advised that if these entries are used in your
+  model, the behaviour may be unexpected. 
+All checks on database completed.
+Testing probability function (apollo_probabilities)
+Apollo found a model component of type classAlloc without a
+  componentName. The name was set to "classAlloc" by default.
+INFORMATION: Setting "avail" is missing, so full availability is
+  assumed. 
+Pre-processing likelihood function...
+Creating initial set of 150 candidate values.
+Calculating LL of candidates 0%....50%.....100%
+
+Stage 1, 150 active candidates.
+Estimating 60 BGW iteration(s) for each active candidate.
+ Candidate......LLstart.....LLfinish.....GradientNorm...Converged
+         1        -2920        -2869            0.002           1
+         2        -2962        -2869            0.002           1
+         3        -3009        -2869            0.002           1
+         4        -3034        -2869            0.003           1
+         5        -3068        -2869            0.006           1
+         6        -2957        -2869            0.004           1
+         7        -3056        -2869            0.001           1
+         8        -3168        -2869            0.004           1
+         9        -3027        -2869            0.001           1
+        10        -2950        -2869            0.002           1
+        11        -3000        -2869            0.002           1
+        12        -2959        -2869            0.003           1
+        13        -3048        -2869            0.003           1
+        14        -2995        -2869            0.004           1
+        15        -2965        -2869            0.005           1
+        16        -2984        -2869            0.003           1
+        17        -3001        -2869            0.004           1
+        18        -2987        -2869            0.003           1
+        19        -3058        -2869            0.004           1
+        20        -3038        -2869            0.002           1
+        21        -3016        -2869            0.004           1
+        22        -2995        -2869            0.004           1
+        23        -3042        -2869            0.003           1
+        24        -3006        -2869            0.002           1
+        25        -2992        -2869            0.003           1
+        26        -2995        -2869            0.003           1
+        27        -3013        -2869            0.003           1
+        28        -3013        -2869            0.003           1
+        29        -3033        -2869            0.002           1
+        30        -3010        -2869            0.003           1
+        31        -2975        -2869            0.002           1
+        32        -3005        -2869            0.002           1
+        33        -3014        -2869            0.004           1
+        34        -3034        -2869            0.002           1
+        35        -2929        -2869            0.003           1
+        36        -2932        -2869            0.003           1
+        37        -3063        -2869            0.003           1
+        38        -3017        -2869            0.004           1
+        39        -2941        -2869            0.002           1
+        40        -3001        -2869            0.005           1
+        41        -3100        -2869            0.002           1
+        42        -2918        -2869            0.003           1
+        43        -2994        -2869            0.004           1
+        44        -2952        -2869            0.003           1
+        45        -2996        -2869            0.003           1
+        46        -2990        -2869            0.003           1
+        47        -2987        -2869            0.002           1
+        48        -3029        -2869            0.003           1
+        49        -3008        -2869            0.002           1
+        50        -3014        -2869            0.003           1
+        51        -2958        -2869            0.308           0
+        52        -3050        -2869            0.005           1
+        53        -2961        -2869            0.002           1
+        54        -2970        -2869            0.002           1
+        55        -2984        -2869            0.002           1
+        56        -3042        -2869            0.002           1
+        57        -2946        -2869            0.003           1
+        58        -2961        -2869            0.001           1
+        59        -3027        -2869            0.004           1
+        60        -3042        -2869            0.003           1
+        61        -3016        -2869            0.004           1
+        62        -3016        -2869            0.002           1
+        63        -2927        -2869            0.003           1
+        64        -3022        -2869            0.006           1
+        65        -2996        -2869            0.034           0
+        66        -2937        -2869            0.006           1
+        67        -2971        -2869            0.002           1
+        68        -2971        -2869            0.004           1
+        69        -2972        -2869            0.002           1
+        70        -3004        -2869            0.002           1
+        71        -3083        -2869            0.004           1
+        72        -2994        -2869            0.005           1
+        73        -2997        -2869            0.002           1
+        74        -3063        -2869            0.005           1
+        75        -3002        -2869            0.005           1
+        76        -3016        -2869            0.002           1
+        77        -2975        -2869            0.004           1
+        78        -3009        -2869            0.104           0
+        79        -3010        -2869            0.002           1
+        80        -3074        -2869            0.002           1
+        81        -3030        -2869            0.003           1
+        82        -3014        -2869            0.002           1
+        83        -3074        -2869            0.002           1
+        84        -2984        -2869            0.003           1
+        85        -3051        -2869            0.003           1
+        86        -2970        -2869            0.001           1
+        87        -2982        -2869            0.001           1
+        88        -2936        -2869            0.001           1
+        89        -2995        -2869            0.003           1
+        90        -2993        -2869            0.003           1
+        91        -2969        -2869            0.003           1
+        92        -2985        -2869            0.008           1
+        93        -3002        -2869            0.002           1
+        94        -3040        -2869            0.005           1
+        95        -2997        -2869            0.003           1
+        96        -3078        -2869            0.003           1
+        97        -3027        -2869            0.003           1
+        98        -3009        -2869            0.003           1
+        99        -2933        -2869            0.002           1
+       100        -2966        -2869            0.002           1
+       101        -3056        -2869            0.529           0
+       102        -3004        -2869            0.001           1
+       103        -2980        -2869            0.002           1
+       104        -3000        -2869            0.004           1
+       105        -3042        -2869            0.006           1
+       106        -2968        -2869            0.002           1
+       107        -3034        -2869            0.002           1
+       108        -2959        -2869            0.003           1
+       109        -3034        -2869            0.004           0
+       110        -3036        -2869            0.003           1
+       111        -3003        -2869            0.003           1
+       112        -2926        -2869            0.003           1
+       113        -3019        -2869            0.005           1
+       114        -3052        -2869            0.008           1
+       115        -2927        -2869            0.002           1
+       116        -3005        -2869            0.001           1
+       117        -3017        -2869            0.002           1
+       118        -2972        -2869            0.002           1
+       119        -2964        -2869            0.001           1
+       120        -2994        -2869            0.004           1
+       121        -3026        -2869            0.002           1
+       122        -3000        -2869            0.003           1
+       123        -3040        -2869            0.003           1
+       124        -2974        -2869            0.002           1
+       125        -2965        -2869            0.006           1
+       126        -3021        -2869            0.002           1
+       127        -3013        -2869            0.003           1
+       128        -2955        -2869            0.003           1
+       129        -2960        -2869            0.002           1
+       130        -2974        -2869            0.002           1
+       131        -2971        -2869            0.002           1
+       132        -3078        -2869            0.009           1
+       133        -3041        -2869            0.003           1
+       134        -3030        -2869            0.002           1
+       135        -2982        -2869            0.003           1
+       136        -3006        -2869            0.006           1
+       137        -3004        -2869            0.002           1
+       138        -2978        -2869            0.003           1
+       139        -2954        -2869            0.002           1
+       140        -3002        -2869            0.002           1
+       141        -2973        -2869            0.005           1
+       142        -3035        -2869            0.002           1
+       143        -2994        -2869            0.003           1
+       144        -2981        -2869            0.002           1
+       145        -3101        -2869             0.57           0
+       146        -2947        -2869            0.004           1
+       147        -3003        -2869            0.007           1
+       148        -2997        -2869            0.005           1
+       149        -3035        -2869            0.003           1
+       150        -2944        -2869            0.002           1
+Candidate 51 dropped.
+- Failed test 1: Too close to 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+  13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+  47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64,
+  65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81,
+  82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98,
+  99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113,
+  114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,
+  128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141,
+  142, 143, 144, 146, 147, 148, 149, 150 in parameter space.
+Candidate 65 dropped.
+- Failed test 1: Too close to 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+  13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+  47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64,
+  66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83,
+  84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+  102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115,
+  116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129,
+  130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143,
+  144, 146, 147, 148, 149, 150 in parameter space.
+Candidate 78 dropped.
+- Failed test 1: Too close to 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+  13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+  47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64,
+  65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82,
+  83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99,
+  100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114,
+  115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128,
+  129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142,
+  143, 144, 146, 147, 148, 149, 150 in parameter space.
+Candidate 101 dropped.
+- Failed test 1: Too close to 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+  13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+  47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63,
+  64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80,
+  81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97,
+  98, 99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112,
+  113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126,
+  127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140,
+  141, 142, 143, 144, 145, 146, 147, 148, 149, 150 in parameter space.
+Candidate 109 dropped.
+- Failed test 1: Too close to 4, 7, 9, 21, 24, 34, 39, 42, 49, 56, 58,
+  61, 70, 79, 82, 86, 87, 88, 93, 98, 106, 110, 115, 116, 119, 123,
+  126, 131, 134, 139, 143, 149 in parameter space.
+Candidate 145 dropped.
+- Failed test 1: Too close to 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+  13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+  47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63,
+  64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80,
+  81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97,
+  98, 99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112,
+  113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126,
+  127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140,
+  141, 142, 143, 144, 146, 147, 148, 149, 150 in parameter space.
+Best candidate so far (LL=-2868.9)
+                              Value
+b_Income_C_1                 0.8590
+b_HH_Member_C_1              0.0822
+b_Caste_C_1                 -2.8265
+b_Elderly_DiffAble_C_1       0.2117
+b_NotPlanned_C_1             0.9919
+b_10k_All_C_1                1.2266
+b_CurrentPolicy_C_1          0.0000
+mu_worst_C_1                 0.3994
+gamma_WI_Q1_C_1              0.0000
+gamma_HH_4_OrMore_Y_C_1      0.0000
+gamma_Informal_C_1           0.0000
+gamma_Benefit_Subsidy_Y_C_1  0.0000
+delta_C_1                    0.0000
+b_Income_C_2                -1.1841
+b_HH_Member_C_2             -3.9178
+b_Caste_C_2                 -5.9351
+b_Elderly_DiffAble_C_2      -4.6148
+b_NotPlanned_C_2            -2.0422
+b_10k_All_C_2               -3.0152
+b_CurrentPolicy_C_2          0.0000
+mu_worst_C_2                 0.5931
+gamma_WI_Q1_C_2              0.9679
+gamma_HH_4_OrMore_Y_C_2      0.6228
+gamma_Informal_C_2           2.2896
+gamma_Benefit_Subsidy_Y_C_2 -0.0348
+delta_C_2                   -3.4346
+b_Income_C_3                -0.9874
+b_HH_Member_C_3             -2.3882
+b_Caste_C_3                 -5.5670
+b_Elderly_DiffAble_C_3      -1.5714
+b_NotPlanned_C_3            -3.4354
+b_10k_All_C_3               -3.2169
+b_CurrentPolicy_C_3          0.0000
+mu_worst_C_3                 0.8406
+gamma_WI_Q1_C_3              1.7126
+gamma_HH_4_OrMore_Y_C_3      4.5520
+gamma_Informal_C_3          -5.2088
+gamma_Benefit_Subsidy_Y_C_3  3.8030
+delta_C_3                   -5.6428
+Working in logs is only applicable with panel data; workInLogs set to
+  FALSE in apollo_control.
+All checks on apollo_control completed.
+WARNING: Your database contains some entries that are NA. This may well
+  be intentional, but be advised that if these entries are used in your
+  model, the behaviour may be unexpected. 
+All checks on database completed.
+WARNING: Element apollo_control in the global environment differs from
+  that inside apollo_inputs. The latter will be used. If you wish to
+  use the former, stop this function by pressing the "Escape" key, and
+  rerun apollo_validateInputs before calling this function. 
+Preparing user-defined functions.
+
+Testing likelihood function...
+Apollo found a model component of type classAlloc without a
+  componentName. The name was set to "classAlloc" by default.
+INFORMATION: Setting "avail" is missing, so full availability is
+  assumed. 
+WARNING: Some alternatives are never chosen in your data! 
+
+Overview of choices for MNL model component Class_1_best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  486.00     484.00         486           488.00
+Times chosen                     138.00      42.00           0            55.00
+Percentage chosen overall         18.96       5.77           0             7.55
+Percentage chosen when available  28.40       8.68           0            11.27
+                                 Not_in_Planned Universal Keep_Current
+Times available                          483.00    485.00       728.00
+Times chosen                              58.00    124.00       311.00
+Percentage chosen overall                  7.97     17.03        42.72
+Percentage chosen when available          12.01     25.57        42.72
+
+
+Overview of choices for MNL model component Class_1_worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  348.00     442.00      486.00           433.00
+Times chosen                      21.00      95.00      307.00            89.00
+Percentage chosen overall          2.88      13.05       42.17            12.23
+Percentage chosen when available   6.03      21.49       63.17            20.55
+                                 Not_in_Planned Universal Keep_Current
+Times available                          425.00    361.00       417.00
+Times chosen                              79.00     74.00        63.00
+Percentage chosen overall                 10.85     10.16         8.65
+Percentage chosen when available          18.59     20.50        15.11
+
+
+Overview of choices for MNL model component Class_1_second_best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  327.00     347.00      179.00           344.00
+Times chosen                     201.00      91.00       10.00            97.00
+Percentage chosen overall         27.61      12.50        1.37            13.32
+Percentage chosen when available  61.47      26.22        5.59            28.20
+                                 Not_in_Planned Universal Keep_Current
+Times available                          346.00    287.00       354.00
+Times chosen                             123.00     71.00       135.00
+Percentage chosen overall                 16.90      9.75        18.54
+Percentage chosen when available          35.55     24.74        38.14
+
+
+Overview of choices for MNL model component Class_1_second worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  126.00     256.00      169.00           247.00
+Times chosen                      57.00     136.00      125.00           134.00
+Percentage chosen overall          7.83      18.68       17.17            18.41
+Percentage chosen when available  45.24      53.12       73.96            54.25
+                                 Not_in_Planned Universal Keep_Current
+Times available                          223.00    216.00       219.00
+Times chosen                             120.00     97.00        59.00
+Percentage chosen overall                 16.48     13.32         8.10
+Percentage chosen when available          53.81     44.91        26.94
+
+WARNING: Some alternatives are never chosen in your data! 
+
+Overview of choices for MNL model component Class_2_best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  486.00     484.00         486           488.00
+Times chosen                     138.00      42.00           0            55.00
+Percentage chosen overall         18.96       5.77           0             7.55
+Percentage chosen when available  28.40       8.68           0            11.27
+                                 Not_in_Planned Universal Keep_Current
+Times available                          483.00    485.00       728.00
+Times chosen                              58.00    124.00       311.00
+Percentage chosen overall                  7.97     17.03        42.72
+Percentage chosen when available          12.01     25.57        42.72
+
+
+Overview of choices for MNL model component Class_2_worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  348.00     442.00      486.00           433.00
+Times chosen                      21.00      95.00      307.00            89.00
+Percentage chosen overall          2.88      13.05       42.17            12.23
+Percentage chosen when available   6.03      21.49       63.17            20.55
+                                 Not_in_Planned Universal Keep_Current
+Times available                          425.00    361.00       417.00
+Times chosen                              79.00     74.00        63.00
+Percentage chosen overall                 10.85     10.16         8.65
+Percentage chosen when available          18.59     20.50        15.11
+
+
+Overview of choices for MNL model component Class_2_second_best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  327.00     347.00      179.00           344.00
+Times chosen                     201.00      91.00       10.00            97.00
+Percentage chosen overall         27.61      12.50        1.37            13.32
+Percentage chosen when available  61.47      26.22        5.59            28.20
+                                 Not_in_Planned Universal Keep_Current
+Times available                          346.00    287.00       354.00
+Times chosen                             123.00     71.00       135.00
+Percentage chosen overall                 16.90      9.75        18.54
+Percentage chosen when available          35.55     24.74        38.14
+
+
+Overview of choices for MNL model component Class_2_second worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  126.00     256.00      169.00           247.00
+Times chosen                      57.00     136.00      125.00           134.00
+Percentage chosen overall          7.83      18.68       17.17            18.41
+Percentage chosen when available  45.24      53.12       73.96            54.25
+                                 Not_in_Planned Universal Keep_Current
+Times available                          223.00    216.00       219.00
+Times chosen                             120.00     97.00        59.00
+Percentage chosen overall                 16.48     13.32         8.10
+Percentage chosen when available          53.81     44.91        26.94
+
+WARNING: Some alternatives are never chosen in your data! 
+
+Overview of choices for MNL model component Class_3_best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  486.00     484.00         486           488.00
+Times chosen                     138.00      42.00           0            55.00
+Percentage chosen overall         18.96       5.77           0             7.55
+Percentage chosen when available  28.40       8.68           0            11.27
+                                 Not_in_Planned Universal Keep_Current
+Times available                          483.00    485.00       728.00
+Times chosen                              58.00    124.00       311.00
+Percentage chosen overall                  7.97     17.03        42.72
+Percentage chosen when available          12.01     25.57        42.72
+
+
+Overview of choices for MNL model component Class_3_worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  348.00     442.00      486.00           433.00
+Times chosen                      21.00      95.00      307.00            89.00
+Percentage chosen overall          2.88      13.05       42.17            12.23
+Percentage chosen when available   6.03      21.49       63.17            20.55
+                                 Not_in_Planned Universal Keep_Current
+Times available                          425.00    361.00       417.00
+Times chosen                              79.00     74.00        63.00
+Percentage chosen overall                 10.85     10.16         8.65
+Percentage chosen when available          18.59     20.50        15.11
+
+
+Overview of choices for MNL model component Class_3_second_best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  327.00     347.00      179.00           344.00
+Times chosen                     201.00      91.00       10.00            97.00
+Percentage chosen overall         27.61      12.50        1.37            13.32
+Percentage chosen when available  61.47      26.22        5.59            28.20
+                                 Not_in_Planned Universal Keep_Current
+Times available                          346.00    287.00       354.00
+Times chosen                             123.00     71.00       135.00
+Percentage chosen overall                 16.90      9.75        18.54
+Percentage chosen when available          35.55     24.74        38.14
+
+
+Overview of choices for MNL model component Class_3_second worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble
+Times available                  126.00     256.00      169.00           247.00
+Times chosen                      57.00     136.00      125.00           134.00
+Percentage chosen overall          7.83      18.68       17.17            18.41
+Percentage chosen when available  45.24      53.12       73.96            54.25
+                                 Not_in_Planned Universal Keep_Current
+Times available                          223.00    216.00       219.00
+Times chosen                             120.00     97.00        59.00
+Percentage chosen overall                 16.48     13.32         8.10
+Percentage chosen when available          53.81     44.91        26.94
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1      0.5135
+Class_2      0.2900
+Class_3      0.1965
+
+Pre-processing likelihood function...
+
+Testing influence of parameters...............................
+Starting main estimation
+Initial function value: -2868.898 
+Initial gradient value:
+               b_Income_C_1             b_HH_Member_C_1 
+              -4.192771e-04               -5.911716e-06 
+                b_Caste_C_1      b_Elderly_DiffAble_C_1 
+               1.336957e-04                2.105480e-04 
+           b_NotPlanned_C_1               b_10k_All_C_1 
+               2.705747e-04               -2.155502e-04 
+               mu_worst_C_1                b_Income_C_2 
+              -3.274181e-04               -3.797140e-04 
+            b_HH_Member_C_2                 b_Caste_C_2 
+               6.139089e-05               -1.032276e-04 
+     b_Elderly_DiffAble_C_2            b_NotPlanned_C_2 
+               4.092726e-05                1.191438e-04 
+              b_10k_All_C_2                mu_worst_C_2 
+               3.637979e-06                2.451088e-04 
+            gamma_WI_Q1_C_2     gamma_HH_4_OrMore_Y_C_2 
+              -1.227818e-05                2.305569e-04 
+         gamma_Informal_C_2 gamma_Benefit_Subsidy_Y_C_2 
+               2.414708e-04                1.386979e-04 
+                  delta_C_2                b_Income_C_3 
+               1.659828e-04               -4.911271e-05 
+            b_HH_Member_C_3                 b_Caste_C_3 
+               1.878107e-04               -1.909939e-05 
+     b_Elderly_DiffAble_C_3            b_NotPlanned_C_3 
+              -9.413270e-05                5.320544e-05 
+              b_10k_All_C_3                mu_worst_C_3 
+              -1.127773e-04                7.139533e-05 
+            gamma_WI_Q1_C_3     gamma_HH_4_OrMore_Y_C_3 
+              -1.864464e-05               -1.527951e-04 
+         gamma_Informal_C_3 gamma_Benefit_Subsidy_Y_C_3 
+              -7.821654e-05               -1.209628e-04 
+                  delta_C_3 
+              -1.732587e-04 
+initial  value 2868.898499 
+iter   1 value 2868.898499
+final  value 2868.898499 
+converged
+
+Estimated parameters with approximate standard errors from BHHH matrix:
+                               Estimate     BHHH se BHH t-ratio (0)
+b_Income_C_1                    0.85903     0.13206          6.5048
+b_HH_Member_C_1                 0.08217     0.15999          0.5136
+b_Caste_C_1                    -2.82649     0.34098         -8.2893
+b_Elderly_DiffAble_C_1          0.21167     0.17059          1.2408
+b_NotPlanned_C_1                0.99187     0.15273          6.4942
+b_10k_All_C_1                   1.22662     0.17755          6.9086
+b_CurrentPolicy_C_1             0.00000          NA              NA
+mu_worst_C_1                    0.39944     0.04968          8.0398
+gamma_WI_Q1_C_1                 0.00000          NA              NA
+gamma_HH_4_OrMore_Y_C_1         0.00000          NA              NA
+gamma_Informal_C_1              0.00000          NA              NA
+gamma_Benefit_Subsidy_Y_C_1     0.00000          NA              NA
+delta_C_1                       0.00000          NA              NA
+b_Income_C_2                   -1.18413     0.22083         -5.3622
+b_HH_Member_C_2                -3.91778     0.47284         -8.2857
+b_Caste_C_2                    -5.93506     0.80932         -7.3334
+b_Elderly_DiffAble_C_2         -4.61478     0.57527         -8.0219
+b_NotPlanned_C_2               -2.04222     0.29681         -6.8805
+b_10k_All_C_2                  -3.01522     0.36841         -8.1844
+b_CurrentPolicy_C_2             0.00000          NA              NA
+mu_worst_C_2                    0.59315     0.13240          4.4801
+gamma_WI_Q1_C_2                 0.96790     0.25656          3.7726
+gamma_HH_4_OrMore_Y_C_2         0.62279     0.28107          2.2157
+gamma_Informal_C_2              2.28962     1.13155          2.0234
+gamma_Benefit_Subsidy_Y_C_2    -0.03484     0.20370         -0.1710
+delta_C_2                      -3.43457     1.16550         -2.9469
+b_Income_C_3                   -0.98739     0.22141         -4.4596
+b_HH_Member_C_3                -2.38821     0.24348         -9.8086
+b_Caste_C_3                    -5.56696     0.77387         -7.1936
+b_Elderly_DiffAble_C_3         -1.57143     0.25777         -6.0962
+b_NotPlanned_C_3               -3.43537     0.39226         -8.7578
+b_10k_All_C_3                  -3.21690     0.33023         -9.7413
+b_CurrentPolicy_C_3             0.00000          NA              NA
+mu_worst_C_3                    0.84059     0.18175          4.6250
+gamma_WI_Q1_C_3                 1.71258     1.41708          1.2085
+gamma_HH_4_OrMore_Y_C_3         4.55203     0.87668          5.1924
+gamma_Informal_C_3             -5.20882     0.86527         -6.0199
+gamma_Benefit_Subsidy_Y_C_3     3.80303     0.66258          5.7397
+delta_C_3                      -5.64276     1.00220         -5.6304
+
+Final LL: -2868.8985
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1      0.5135
+Class_2      0.2900
+Class_3      0.1965
+
+Calculating log-likelihood at equal shares (LL(0)) for applicable
+  models...
+Calculating log-likelihood at observed shares from estimation data
+  (LL(c)) for applicable models...
+Calculating LL of each model component...
+Calculating other model fit measures
+Computing covariance matrix using numerical methods (numDeriv).
+ 0%....25%....50%....75%....100%
+Negative definite Hessian with maximum eigenvalue: -0.103968
+
+Please acknowledge the use of Apollo by citing Hess & Palma (2019) -
+  doi.org/10.1016/j.jocm.2019.100170
+Model run by saumitra using Apollo 0.3.8 on R 4.4.0 for Linux.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : SS16_SubElig_20260613_1+1_Q1_HH
+Model description                           : SS16_SubElig_20260613_1+1_Q1_HH
+Model run at                                : 2026-06-13 19:41:49.341482
+Estimation method                           : bfgs
+Estimation diagnosis                        : successful convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -0.103968
+     reciprocal of condition number         : 0.000131192
+Number of individuals                       : 728
+Number of rows in database                  : 728
+Number of modelled outcomes                 : 11648
+                           model : 2912
+                    Class_1_best : 728
+                   Class_1_worst : 728
+             Class_1_second_best : 728
+            Class_1_second worst : 728
+                    Class_2_best : 728
+                   Class_2_worst : 728
+             Class_2_second_best : 728
+            Class_2_second worst : 728
+                    Class_3_best : 728
+                   Class_3_worst : 728
+             Class_3_second_best : 728
+            Class_3_second worst : 728
+
+Number of cores used                        :  1 
+Model without mixing
+
+LL(start)                                   : -2868.9
+LL (whole model) at equal shares, LL(0)     : -3485.29
+LL (whole model) at observed shares, LL(C)  : -5081.66
+LL(final, whole model)                      : -2868.9
+Rho-squared vs equal shares                  :  0.1769 
+Adj.Rho-squared vs equal shares              :  0.168 
+Rho-squared vs observed shares               :  0.4354 
+Adj.Rho-squared vs observed shares           :  0.4435 
+AIC                                         :  5799.8 
+BIC                                         :  5985.07 
+
+LL(0,Class_1)                    : -3485.29
+LL(final,Class_1)                : -3246.22
+LL(0,Class_2)                    : -3485.29
+LL(final,Class_2)                : -3921.67
+LL(0,Class_3)                    : -3485.29
+LL(final,Class_3)                : -4031.18
+
+Estimated parameters                        : 31
+Time taken (hh:mm:ss)                       :  00:00:33.66 
+     pre-estimation                         :  00:00:1.08 
+     estimation                             :  00:00:3.29 
+     post-estimation                        :  00:00:29.29 
+Iterations                                  :  2  
+
+Unconstrained optimisation.
+
+Estimates:
+                               Estimate        s.e.   t.rat.(0)    Rob.s.e.
+b_Income_C_1                    0.85903     0.18413      4.6653     0.29707
+b_HH_Member_C_1                 0.08217     0.21811      0.3767     0.36235
+b_Caste_C_1                    -2.82649     0.43042     -6.5668     0.61776
+b_Elderly_DiffAble_C_1          0.21167     0.21603      0.9798     0.35765
+b_NotPlanned_C_1                0.99187     0.20126      4.9283     0.31271
+b_10k_All_C_1                   1.22662     0.25103      4.8864     0.45712
+b_CurrentPolicy_C_1             0.00000          NA          NA          NA
+mu_worst_C_1                    0.39944     0.06546      6.1024     0.09701
+gamma_WI_Q1_C_1                 0.00000          NA          NA          NA
+gamma_HH_4_OrMore_Y_C_1         0.00000          NA          NA          NA
+gamma_Informal_C_1              0.00000          NA          NA          NA
+gamma_Benefit_Subsidy_Y_C_1     0.00000          NA          NA          NA
+delta_C_1                       0.00000          NA          NA          NA
+b_Income_C_2                   -1.18413     0.40118     -2.9516     0.92846
+b_HH_Member_C_2                -3.91778     0.75134     -5.2144     1.63286
+b_Caste_C_2                    -5.93506     1.22645     -4.8392     2.31984
+b_Elderly_DiffAble_C_2         -4.61478     0.88443     -5.2178     1.63176
+b_NotPlanned_C_2               -2.04222     0.61084     -3.3433     1.53035
+b_10k_All_C_2                  -3.01522     0.64351     -4.6856     1.44601
+b_CurrentPolicy_C_2             0.00000          NA          NA          NA
+mu_worst_C_2                    0.59315     0.15620      3.7974     0.24240
+gamma_WI_Q1_C_2                 0.96790     0.33326      2.9043     0.55208
+gamma_HH_4_OrMore_Y_C_2         0.62279     0.42724      1.4577     0.75885
+gamma_Informal_C_2              2.28962     1.86663      1.2266     4.22979
+gamma_Benefit_Subsidy_Y_C_2    -0.03484     0.28638     -0.1216     0.45265
+delta_C_2                      -3.43457     1.87470     -1.8321     4.22100
+b_Income_C_3                   -0.98739     0.27285     -3.6188     0.39914
+b_HH_Member_C_3                -2.38821     0.33966     -7.0311     0.56553
+b_Caste_C_3                    -5.56696     1.06719     -5.2165     1.73185
+b_Elderly_DiffAble_C_3         -1.57143     0.31441     -4.9980     0.45846
+b_NotPlanned_C_3               -3.43537     0.54465     -6.3074     0.89266
+b_10k_All_C_3                  -3.21690     0.50338     -6.3905     0.85431
+b_CurrentPolicy_C_3             0.00000          NA          NA          NA
+mu_worst_C_3                    0.84059     0.23378      3.5957     0.35470
+gamma_WI_Q1_C_3                 1.71258     1.40958      1.2150     1.60995
+gamma_HH_4_OrMore_Y_C_3         4.55203     1.35523      3.3589     2.64981
+gamma_Informal_C_3             -5.20882     0.98925     -5.2654     1.31221
+gamma_Benefit_Subsidy_Y_C_3     3.80303     0.84464      4.5026     1.26717
+delta_C_3                      -5.64276     1.55183     -3.6362     3.14945
+                            Rob.t.rat.(0)
+b_Income_C_1                      2.89167
+b_HH_Member_C_1                   0.22677
+b_Caste_C_1                      -4.57536
+b_Elderly_DiffAble_C_1            0.59184
+b_NotPlanned_C_1                  3.17187
+b_10k_All_C_1                     2.68338
+b_CurrentPolicy_C_1                    NA
+mu_worst_C_1                      4.11743
+gamma_WI_Q1_C_1                        NA
+gamma_HH_4_OrMore_Y_C_1                NA
+gamma_Informal_C_1                     NA
+gamma_Benefit_Subsidy_Y_C_1            NA
+delta_C_1                              NA
+b_Income_C_2                     -1.27538
+b_HH_Member_C_2                  -2.39934
+b_Caste_C_2                      -2.55839
+b_Elderly_DiffAble_C_2           -2.82809
+b_NotPlanned_C_2                 -1.33448
+b_10k_All_C_2                    -2.08519
+b_CurrentPolicy_C_2                    NA
+mu_worst_C_2                      2.44699
+gamma_WI_Q1_C_2                   1.75320
+gamma_HH_4_OrMore_Y_C_2           0.82071
+gamma_Informal_C_2                0.54131
+gamma_Benefit_Subsidy_Y_C_2      -0.07696
+delta_C_2                        -0.81369
+b_Income_C_3                     -2.47378
+b_HH_Member_C_3                  -4.22292
+b_Caste_C_3                      -3.21446
+b_Elderly_DiffAble_C_3           -3.42763
+b_NotPlanned_C_3                 -3.84848
+b_10k_All_C_3                    -3.76551
+b_CurrentPolicy_C_3                    NA
+mu_worst_C_3                      2.36986
+gamma_WI_Q1_C_3                   1.06375
+gamma_HH_4_OrMore_Y_C_3           1.71787
+gamma_Informal_C_3               -3.96949
+gamma_Benefit_Subsidy_Y_C_3       3.00121
+delta_C_3                        -1.79166
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1      0.5135
+Class_2      0.2900
+Class_3      0.1965
+
+Model output saved to ../Output_Apollo/SS16_SubElig_20260613_1+1_Q1_HH_output.txt 
+Estimates saved to ../Output_Apollo/SS16_SubElig_20260613_1+1_Q1_HH_estimates.csv 
+Model object saved to ../Output_Apollo/SS16_SubElig_20260613_1+1_Q1_HH.rds 

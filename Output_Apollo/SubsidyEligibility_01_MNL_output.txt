@@ -1,0 +1,382 @@
+Model run by Shomi using Apollo 0.3.8 on R 4.6.0 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : SubsidyEligibility_01_MNL
+Model description                           : SubsidyEligibility_MNL
+Model run at                                : 2026-09-28 19:21:05.749381
+Estimation method                           : bfgs
+Estimation diagnosis                        : successful convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -8.749227
+     reciprocal of condition number         : 0.0054391
+Number of individuals                       : 728
+Number of rows in database                  : 728
+Number of modelled outcomes                 : 2912
+                            best : 728
+                           worst : 728
+                     second_best : 728
+                    second worst : 728
+
+Number of cores used                        :  1 
+Model without mixing
+
+LL(start)                                   : -3485.29
+LL (whole model) at equal shares, LL(0)     : -3485.29
+LL (whole model) at observed shares, LL(C)  : -5081.66
+LL(final, whole model)                      : -3034.81
+Rho-squared vs equal shares                  :  0.1293 
+Adj.Rho-squared vs equal shares              :  0.1272 
+Rho-squared vs observed shares               :  0.4028 
+Adj.Rho-squared vs observed shares           :  0.4061 
+AIC                                         :  6083.62 
+BIC                                         :  6115.76 
+
+LL(0,choice_best)                : -1171.67
+LL(final,choice_best)            : -985.58
+LL(0,choice_worst)               : -1009.22
+LL(final,choice_worst)           : -850.14
+LL(0,choice_best_2)              : -799.79
+LL(final,choice_best_2)          : -731
+LL(0,choice_worst_2)             : -504.61
+LL(final,choice_worst_2)         : -468.09
+
+Estimated parameters                        : 7
+Time taken (hh:mm:ss)                       :  00:00:3.09 
+     pre-estimation                         :  00:00:0.32 
+     estimation                             :  00:00:1.98 
+     post-estimation                        :  00:00:0.78 
+Iterations                                  :  27  
+
+Unconstrained optimisation.
+
+Estimates:
+                      Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+b_Income                0.1013     0.08137       1.245     0.10177        0.9958
+b_HH_Member            -1.0523     0.09897     -10.633     0.14067       -7.4807
+b_Caste                -3.7400     0.33195     -11.267     0.43840       -8.5310
+b_Elderly_DiffAble     -0.9189     0.09610      -9.562     0.13235       -6.9429
+b_NotPlanned           -0.3136     0.08651      -3.625     0.12160       -2.5790
+b_10k_All              -0.4224     0.09059      -4.663     0.13312       -3.1735
+b_CurrentPolicy         0.0000          NA          NA          NA            NA
+mu_worst                0.4775     0.05080       9.401     0.06392        7.4704
+
+WARNING: Some alternatives are never chosen in your data! 
+
+Overview of choices for MNL model component best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble Not_in_Planned Universal Keep_Current
+Times available                  486.00     484.00         486           488.00         483.00    485.00       728.00
+Times chosen                     138.00      42.00           0            55.00          58.00    124.00       311.00
+Percentage chosen overall         18.96       5.77           0             7.55           7.97     17.03        42.72
+Percentage chosen when available  28.40       8.68           0            11.27          12.01     25.57        42.72
+
+
+
+Overview of choices for MNL model component worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble Not_in_Planned Universal Keep_Current
+Times available                  348.00     442.00      486.00           433.00         425.00    361.00       417.00
+Times chosen                      21.00      95.00      307.00            89.00          79.00     74.00        63.00
+Percentage chosen overall          2.88      13.05       42.17            12.23          10.85     10.16         8.65
+Percentage chosen when available   6.03      21.49       63.17            20.55          18.59     20.50        15.11
+
+
+
+Overview of choices for MNL model component second_best:
+                                 Income HH_Members Caste_Based Elderly_DiffAble Not_in_Planned Universal Keep_Current
+Times available                  327.00     347.00      179.00           344.00         346.00    287.00       354.00
+Times chosen                     201.00      91.00       10.00            97.00         123.00     71.00       135.00
+Percentage chosen overall         27.61      12.50        1.37            13.32          16.90      9.75        18.54
+Percentage chosen when available  61.47      26.22        5.59            28.20          35.55     24.74        38.14
+
+
+
+Overview of choices for MNL model component second worst:
+                                 Income HH_Members Caste_Based Elderly_DiffAble Not_in_Planned Universal Keep_Current
+Times available                  126.00     256.00      169.00           247.00         223.00    216.00       219.00
+Times chosen                      57.00     136.00      125.00           134.00         120.00     97.00        59.00
+Percentage chosen overall          7.83      18.68       17.17            18.41          16.48     13.32         8.10
+Percentage chosen when available  45.24      53.12       73.96            54.25          53.81     44.91        26.94
+
+
+
+Classical covariance matrix:
+                             b_Income        b_HH_Member            b_Caste b_Elderly_DiffAble       b_NotPlanned          b_10k_All
+b_Income                     0.006622           0.002857           0.004108           0.002736           0.002825           0.002795
+b_HH_Member                  0.002857           0.009795           0.009927           0.003186           0.003019           0.003028
+b_Caste                      0.004108           0.009927           0.110193           0.007309           0.004793           0.003704
+b_Elderly_DiffAble           0.002736           0.003186           0.007309           0.009236           0.002905           0.002793
+b_NotPlanned                 0.002825           0.003019           0.004793           0.002905           0.007484           0.002947
+b_10k_All                    0.002795           0.003028           0.003704           0.002793           0.002947           0.008207
+mu_worst                   2.5006e-04           0.001087           0.014545         6.7734e-04         3.2450e-04         1.1916e-04
+                             mu_worst
+b_Income                   2.5006e-04
+b_HH_Member                  0.001087
+b_Caste                      0.014545
+b_Elderly_DiffAble         6.7734e-04
+b_NotPlanned               3.2450e-04
+b_10k_All                  1.1916e-04
+mu_worst                     0.002580
+
+Robust covariance matrix:
+                             b_Income        b_HH_Member            b_Caste b_Elderly_DiffAble       b_NotPlanned          b_10k_All
+b_Income                     0.010358           0.005980           0.008055           0.005464           0.005809           0.005136
+b_HH_Member                  0.005980           0.019789           0.018334           0.008733           0.009997           0.008126
+b_Caste                      0.008055           0.018334           0.192195           0.013924           0.012037           0.007492
+b_Elderly_DiffAble           0.005464           0.008733           0.013924           0.017518           0.007441           0.007397
+b_NotPlanned                 0.005809           0.009997           0.012037           0.007441           0.014785           0.008355
+b_10k_All                    0.005136           0.008126           0.007492           0.007397           0.008355           0.017720
+mu_worst                  -1.5167e-04           0.001356           0.023894           0.001210         3.0515e-04        -4.1473e-04
+                             mu_worst
+b_Income                  -1.5167e-04
+b_HH_Member                  0.001356
+b_Caste                      0.023894
+b_Elderly_DiffAble           0.001210
+b_NotPlanned               3.0515e-04
+b_10k_All                 -4.1473e-04
+mu_worst                     0.004086
+
+Classical correlation matrix:
+                             b_Income        b_HH_Member            b_Caste b_Elderly_DiffAble       b_NotPlanned          b_10k_All
+b_Income                      1.00000             0.3547             0.1521             0.3498            0.40123            0.37915
+b_HH_Member                   0.35470             1.0000             0.3022             0.3349            0.35260            0.33775
+b_Caste                       0.15206             0.3022             1.0000             0.2291            0.16691            0.12317
+b_Elderly_DiffAble            0.34985             0.3349             0.2291             1.0000            0.34938            0.32075
+b_NotPlanned                  0.40123             0.3526             0.1669             0.3494            1.00000            0.37596
+b_10k_All                     0.37915             0.3378             0.1232             0.3207            0.37596            1.00000
+mu_worst                      0.06049             0.2162             0.8626             0.1387            0.07384            0.02589
+                             mu_worst
+b_Income                      0.06049
+b_HH_Member                   0.21625
+b_Caste                       0.86257
+b_Elderly_DiffAble            0.13875
+b_NotPlanned                  0.07384
+b_10k_All                     0.02589
+mu_worst                      1.00000
+
+Robust correlation matrix:
+                             b_Income        b_HH_Member            b_Caste b_Elderly_DiffAble       b_NotPlanned          b_10k_All
+b_Income                      1.00000             0.4177             0.1805             0.4057            0.46936            0.37908
+b_HH_Member                   0.41770             1.0000             0.2973             0.4690            0.58446            0.43396
+b_Caste                       0.18053             0.2973             1.0000             0.2400            0.22581            0.12838
+b_Elderly_DiffAble            0.40566             0.4690             0.2400             1.0000            0.46233            0.41986
+b_NotPlanned                  0.46936             0.5845             0.2258             0.4623            1.00000            0.51617
+b_10k_All                     0.37908             0.4340             0.1284             0.4199            0.51617            1.00000
+mu_worst                     -0.02331             0.1508             0.8526             0.1431            0.03926           -0.04874
+                             mu_worst
+b_Income                     -0.02331
+b_HH_Member                   0.15077
+b_Caste                       0.85263
+b_Elderly_DiffAble            0.14305
+b_NotPlanned                  0.03926
+b_10k_All                    -0.04874
+mu_worst                      1.00000
+
+ 20 most extreme outliers in terms of lowest average per choice prediction:
+ row Avg prob per choice
+ 337        4.331136e-10
+ 317        7.763934e-10
+ 319        1.781466e-09
+ 398        2.505780e-09
+ 321        2.614909e-09
+ 318        3.846522e-09
+ 320        1.795326e-08
+ 314        1.192716e-07
+ 329        1.288850e-07
+ 316        1.288850e-07
+ 335        3.545497e-07
+ 334        5.016965e-07
+ 313        5.295611e-07
+ 395        5.380229e-07
+ 324        5.411649e-07
+ 315        1.197940e-06
+ 338        1.225640e-06
+ 330        1.351306e-06
+ 392        1.854921e-06
+ 362        2.134067e-06
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                      
+modelName              "SubsidyEligibility_01_MNL"
+modelDescr             "SubsidyEligibility_MNL"   
+indivID                "ID"                       
+weights                "Weights"                  
+analyticGrad           "FALSE"                    
+workInLogs             "FALSE"                    
+outputDirectory        "../Output_Apollo/"        
+debug                  "FALSE"                    
+nCores                 "1"                        
+seed                   "13"                       
+mixing                 "FALSE"                    
+HB                     "FALSE"                    
+noValidation           "FALSE"                    
+noDiagnostics          "FALSE"                    
+calculateLLC           "TRUE"                     
+analyticHessian        "FALSE"                    
+dropLoopExpansion      "FALSE"                    
+dropRedefCheck         "FALSE"                    
+memorySaver            "FALSE"                    
+panelData              "FALSE"                    
+analyticGrad_manualSet "TRUE"                     
+overridePanel          "FALSE"                    
+preventOverridePanel   "FALSE"                    
+noModification         "FALSE"                    
+
+Hessian routines attempted
+--------------------------
+numerical second derivative of LL (using numDeriv)
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+
+  ### list of probabilities P
+  P = list()
+  
+  ### List of utilities:
+  V = list()
+  V[["Income"]]           = b_Income
+  
+  V[["HH_Members"]]       = b_HH_Member
+  
+  V[["Caste_Based"]]      = b_Caste
+  
+  V[["Elderly_DiffAble"]] = b_Elderly_DiffAble
+  
+  V[["Not_in_Planned"]]   = b_NotPlanned
+  
+  V[["Universal"]]        = b_10k_All
+  
+  V[["Keep_Current"]]     = b_CurrentPolicy 
+
+  ### FIRST BEST: Compute probabilities for "best" choice using MNL model
+  mnl_settings_best = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income             =(Inc==1), 
+                         HH_Members         =(HH==1), 
+                         Caste_Based        =(Caste==1), 
+                         Elderly_DiffAble   =(ElderDiffAble==1), 
+                         Not_in_Planned     =(NotPlanned==1),
+                         Universal          =(First10k==1), 
+                         Keep_Current       =(CurrentPolicy==1) ),
+    
+    choiceVar     = BWS_1_F_Most,
+    utilities     = V,
+    componentName = "best"
+  )
+  P[["choice_best"]] = apollo_mnl(mnl_settings_best, functionality)
+
+  
+  ### FIRST WORST: Compute probabilities for "worst" choice using MNL model
+  mnl_settings_worst = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income            =(Inc==1           & BWS_1_F_Most!=1), 
+                         HH_Members        =(HH==1            & BWS_1_F_Most!=2),
+                         Caste_Based       =(Caste==1         & BWS_1_F_Most!=3),                                            
+                         Elderly_DiffAble  =(ElderDiffAble==1 & BWS_1_F_Most!=4),                         
+                         Not_in_Planned    =(NotPlanned==1    & BWS_1_F_Most!=5),
+                         Universal         =(First10k==1      & BWS_1_F_Most!=6),                                             
+                         Keep_Current      =(CurrentPolicy==1 & BWS_1_F_Most!=7)),                        
+                                    
+    choiceVar     = BWS_1_F_Least, 
+    utilities     = list(Income            = -mu_worst*V[["Income"]],
+                         HH_Members        = -mu_worst*V[["HH_Members"]],
+                         Caste_Based       = -mu_worst*V[["Caste_Based"]],
+                         Elderly_DiffAble  = -mu_worst*V[["Elderly_DiffAble"]],
+                         Not_in_Planned    = -mu_worst*V[["Not_in_Planned"]],
+                         Universal         = -mu_worst*V[["Universal"]],
+                         Keep_Current      = -mu_worst*V[["Keep_Current"]]),
+    componentName = "worst" 
+  )
+  P[["choice_worst"]] = apollo_mnl(mnl_settings_worst, functionality)
+  
+  
+  ### SECOND BEST: Compute probabilities for "Second Best" choice using MNL model
+  mnl_settings_best_2 = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income            =(Inc==1           & BWS_1_F_Most!=1 & BWS_1_F_Least!=1), 
+                         HH_Members        =(HH==1            & BWS_1_F_Most!=2 & BWS_1_F_Least!=2),
+                         Caste_Based       =(Caste==1         & BWS_1_F_Most!=3 & BWS_1_F_Least!=3),                                            
+                         Elderly_DiffAble  =(ElderDiffAble==1 & BWS_1_F_Most!=4 & BWS_1_F_Least!=4),                         
+                         Not_in_Planned    =(NotPlanned==1    & BWS_1_F_Most!=5 & BWS_1_F_Least!=5),
+                         Universal         =(First10k==1      & BWS_1_F_Most!=6 & BWS_1_F_Least!=6),                                             
+                         Keep_Current      =(CurrentPolicy==1 & BWS_1_F_Most!=7 & BWS_1_F_Least!=7)),  
+    
+    choiceVar     = BWS_1_S_Most, 
+    utilities     = V,
+    componentName = "second_best"
+  )
+  P[["choice_best_2"]] = apollo_mnl(mnl_settings_best_2, functionality)
+  
+  
+  ### SECOND WORST: Compute probabilities for "Second Worst" choice using MNL model
+  mnl_settings_worst_2 = list(
+    alternatives  = c(Income           =1, 
+                      HH_Members       =2, 
+                      Caste_Based      =3, 
+                      Elderly_DiffAble =4, 
+                      Not_in_Planned   =5,
+                      Universal        =6, 
+                      Keep_Current     =7),
+    
+    avail         = list(Income            =(Inc==1           & BWS_1_F_Most!=1 & BWS_1_F_Least!=1 & BWS_1_S_Most!=1), 
+                         HH_Members        =(HH==1            & BWS_1_F_Most!=2 & BWS_1_F_Least!=2 & BWS_1_S_Most!=2),
+                         Caste_Based       =(Caste==1         & BWS_1_F_Most!=3 & BWS_1_F_Least!=3 & BWS_1_S_Most!=3),                                            
+                         Elderly_DiffAble  =(ElderDiffAble==1 & BWS_1_F_Most!=4 & BWS_1_F_Least!=4 & BWS_1_S_Most!=4),                         
+                         Not_in_Planned    =(NotPlanned==1    & BWS_1_F_Most!=5 & BWS_1_F_Least!=5 & BWS_1_S_Most!=5),
+                         Universal         =(First10k==1      & BWS_1_F_Most!=6 & BWS_1_F_Least!=6 & BWS_1_S_Most!=6),                                             
+                         Keep_Current      =(CurrentPolicy==1 & BWS_1_F_Most!=7 & BWS_1_F_Least!=7 & BWS_1_S_Most!=7)),  
+    
+    choiceVar     = BWS_1_S_Least, 
+    utilities     = list(Income            = -mu_worst*V[["Income"]],
+                         HH_Members        = -mu_worst*V[["HH_Members"]],
+                         Caste_Based       = -mu_worst*V[["Caste_Based"]],
+                         Elderly_DiffAble  = -mu_worst*V[["Elderly_DiffAble"]],
+                         Not_in_Planned    = -mu_worst*V[["Not_in_Planned"]],
+                         Universal         = -mu_worst*V[["Universal"]],
+                         Keep_Current      = -mu_worst*V[["Keep_Current"]]),
+    componentName = "second worst"
+  )
+  P[["choice_worst_2"]] = apollo_mnl(mnl_settings_worst_2, functionality)
+  
+  
+  ### Combined model
+  P = apollo_combineModels(P, apollo_inputs, functionality)
+  
+  ### Including individual weights
+  P = apollo_weighting(P, apollo_inputs, functionality)
+
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  return(P)
+}
